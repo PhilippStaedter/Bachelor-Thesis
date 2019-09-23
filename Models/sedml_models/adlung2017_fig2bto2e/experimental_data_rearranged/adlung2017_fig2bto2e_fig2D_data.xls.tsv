@@ -1,0 +1,15 @@
+observableId	preequilibrationConditionId	simulationConditionId	measurment	time	observableParameters	noiseParameters	observableTransformation	noiseDistribution
+BaF3-EpoR			22.3	0	NaN			
+BaF3-EpoR			47.6	5	NaN			
+BaF3-EpoR			133.6	10	NaN			
+BaF3-EpoR			105.5	15	NaN			
+BaF3-EpoR			74.7	20	NaN			
+BaF3-EpoR			65.9	40	NaN			
+BaF3-EpoR			45.7	60	NaN			
+CFU-E			11.5	0	NaN			
+CFU-E			126.5	5	NaN			
+CFU-E			133.6	10	NaN			
+CFU-E			93.4	15	NaN			
+CFU-E			73.3	20	NaN			
+CFU-E			37.7	40	NaN			
+CFU-E			26.7	60	NaN			

@@ -1,0 +1,5 @@
+observableId	preequilibrationConditionId	simulationConditionId	measurment	time	observableParameters	noiseParameters	observableTransformation	noiseDistribution
+HIV-1 RNA			27200	22	NaN			
+HIV-1 RNA			210000	43	NaN			
+HIV-1 RNA			85900	78	NaN			
+HIV-1 RNA			81100	106	NaN			

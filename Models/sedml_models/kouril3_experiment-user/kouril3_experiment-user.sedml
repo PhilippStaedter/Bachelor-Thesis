@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sedML xmlns="http://sed-ml.org/sed-ml/level1/version3" xmlns:addedPrefix="http://sed-ml.org/sed-ml/level1/version2" level="1" version="3">
+  <listOfDataDescriptions>
+    <dataDescription id="seek_data_Kouril" source="https://seek.sysmo-db.org/data_files/1092/download?version=2">
+      <listOfDataSources>
+        <dataSource id="time" indexSet="time"/>
+        <dataSource id="F6P" indexSet="F6P"/>
+        <dataSource id="P3G" indexSet="3PG"/>
+        <dataSource id="DHAP" indexSet="DHAP"/>
+        <dataSource id="GAP" indexSet="GAP"/>
+        <dataSource id="PYR" indexSet="PYR"/>
+      </listOfDataSources>
+    </dataDescription>
+  </listOfDataDescriptions>
+  <listOfSimulations>
+    <uniformTimeCourse id="sim0_model0_kouril3" initialTime="0" outputStartTime="0" outputEndTime="200" numberOfPoints="1000">
+      <algorithm kisaoID="KISAO:0000019"/>
+    </uniformTimeCourse>
+  </listOfSimulations>
+  <listOfModels>
+    <model id="model0_kouril3" name="kouril3" language="urn:sedml:language:sbml" source="https://jjj.bio.vu.nl/rest/models/kouril3/sbml/">
+      <listOfChanges>
+        <changeAttribute target="/sbml:sbml/sbml:model/sbml:listOfParameters/sbml:parameter[@id='VmfPGK']" newValue="17.3221"/>
+        <changeAttribute target="/sbml:sbml/sbml:model/sbml:listOfSpecies/sbml:species[@id='adp']" newValue="0.0"/>
+        <changeAttribute target="/sbml:sbml/sbml:model/sbml:listOfSpecies/sbml:species[@id='bpg']" newValue="0.0"/>
+        <changeAttribute target="/sbml:sbml/sbml:model/sbml:listOfSpecies/sbml:species[@id='pyr']" newValue="0.4"/>
+        <changeAttribute target="/sbml:sbml/sbml:model/sbml:listOfSpecies/sbml:species[@id='glc']" newValue="10.0"/>
+        <changeAttribute target="/sbml:sbml/sbml:model/sbml:listOfSpecies/sbml:species[@id='pep']" newValue="5.0"/>
+        <changeAttribute target="/sbml:sbml/sbml:model/sbml:listOfSpecies/sbml:species[@id='p3g']" newValue="1.8"/>
+        <changeAttribute target="/sbml:sbml/sbml:model/sbml:listOfSpecies/sbml:species[@id='gap']" newValue="0.06"/>
+        <changeAttribute target="/sbml:sbml/sbml:model/sbml:listOfSpecies/sbml:species[@id='nadph']" newValue="0.2"/>
+        <changeAttribute target="/sbml:sbml/sbml:model/sbml:listOfSpecies/sbml:species[@id='dhap']" newValue="0.03"/>
+        <changeAttribute target="/sbml:sbml/sbml:model/sbml:listOfSpecies/sbml:species[@id='atp']" newValue="10.0"/>
+        <changeAttribute target="/sbml:sbml/sbml:model/sbml:listOfSpecies/sbml:species[@id='nadp']" newValue="0.0"/>
+        <changeAttribute target="/sbml:sbml/sbml:model/sbml:listOfSpecies/sbml:species[@id='f6p']" newValue="0.12"/>
+        <changeAttribute target="/sbml:sbml/sbml:model/sbml:listOfParameters/sbml:parameter[@id='KaldDHAP']" newValue="0.170995"/>
+        <changeAttribute target="/sbml:sbml/sbml:model/sbml:listOfParameters/sbml:parameter[@id='KaldF6P']" newValue="1.0"/>
+        <changeAttribute target="/sbml:sbml/sbml:model/sbml:listOfParameters/sbml:parameter[@id='KaldGAP']" newValue="0.0522437"/>
+        <changeAttribute target="/sbml:sbml/sbml:model/sbml:listOfParameters/sbml:parameter[@id='KbisP']" newValue="0.000406744"/>
+        <changeAttribute target="/sbml:sbml/sbml:model/sbml:listOfParameters/sbml:parameter[@id='Kgap']" newValue="0.83766"/>
+        <changeAttribute target="/sbml:sbml/sbml:model/sbml:listOfParameters/sbml:parameter[@id='KiADP']" newValue="1.14174"/>
+        <changeAttribute target="/sbml:sbml/sbml:model/sbml:listOfParameters/sbml:parameter[@id='Knadp']" newValue="0.271013"/>
+        <changeAttribute target="/sbml:sbml/sbml:model/sbml:listOfParameters/sbml:parameter[@id='Knadph']" newValue="0.0735253"/>
+        <changeAttribute target="/sbml:sbml/sbml:model/sbml:listOfParameters/sbml:parameter[@id='KpgkADP']" newValue="0.0848049"/>
+        <changeAttribute target="/sbml:sbml/sbml:model/sbml:listOfParameters/sbml:parameter[@id='KpgkATP']" newValue="9.68404"/>
+        <changeAttribute target="/sbml:sbml/sbml:model/sbml:listOfParameters/sbml:parameter[@id='KpgkP3G']" newValue="0.541454"/>
+        <changeAttribute target="/sbml:sbml/sbml:model/sbml:listOfParameters/sbml:parameter[@id='KpgkbisP']" newValue="5.59"/>
+        <changeAttribute target="/sbml:sbml/sbml:model/sbml:listOfParameters/sbml:parameter[@id='Kpi']" newValue="408.523"/>
+        <changeAttribute target="/sbml:sbml/sbml:model/sbml:listOfParameters/sbml:parameter[@id='KtimDHAP']" newValue="0.811626"/>
+        <changeAttribute target="/sbml:sbml/sbml:model/sbml:listOfParameters/sbml:parameter[@id='KtimGAP']" newValue="0.245106"/>
+        <changeAttribute target="/sbml:sbml/sbml:model/sbml:listOfParameters/sbml:parameter[@id='KtimP3G']" newValue="0.399822"/>
+        <changeAttribute target="/sbml:sbml/sbml:model/sbml:listOfParameters/sbml:parameter[@id='KtimPEP']" newValue="0.660519"/>
+        <changeAttribute target="/sbml:sbml/sbml:model/sbml:listOfParameters/sbml:parameter[@id='Vmarev']" newValue="24.054"/>
+        <changeAttribute target="/sbml:sbml/sbml:model/sbml:listOfParameters/sbml:parameter[@id='VmfALD']" newValue="2.64096"/>
+        <changeAttribute target="/sbml:sbml/sbml:model/sbml:listOfParameters/sbml:parameter[@id='VmfTIM']" newValue="239.835"/>
+        <changeAttribute target="/sbml:sbml/sbml:model/sbml:listOfParameters/sbml:parameter[@id='Vmfor']" newValue="20.6526"/>
+        <changeAttribute target="/sbml:sbml/sbml:model/sbml:listOfParameters/sbml:parameter[@id='VmrPGK']" newValue="30.04"/>
+        <changeAttribute target="/sbml:sbml/sbml:model/sbml:listOfParameters/sbml:parameter[@id='VmrTIM']" newValue="239.414"/>
+        <changeAttribute target="/sbml:sbml/sbml:model/sbml:listOfParameters/sbml:parameter[@id='kGDH']" newValue="10.0"/>
+        <changeAttribute target="/sbml:sbml/sbml:model/sbml:listOfParameters/sbml:parameter[@id='kPK']" newValue="10.0"/>
+        <changeAttribute target="/sbml:sbml/sbml:model/sbml:listOfParameters/sbml:parameter[@id='kdbpg']" newValue="1.05824"/>
+        <changeAttribute target="/sbml:sbml/sbml:model/sbml:listOfParameters/sbml:parameter[@id='kddhap']" newValue="0.0225"/>
+        <changeAttribute target="/sbml:sbml/sbml:model/sbml:listOfParameters/sbml:parameter[@id='kdgap']" newValue="0.0559"/>
+        <changeAttribute target="/sbml:sbml/sbml:model/sbml:listOfParameters/sbml:parameter[@id='n']" newValue="1.56416"/>
+        <changeAttribute target="/sbml:sbml/sbml:model/sbml:listOfParameters/sbml:parameter[@id='pi']" newValue="0.0"/>
+        <changeAttribute target="/sbml:sbml/sbml:model/sbml:listOfParameters/sbml:parameter[@id='protALDPase']" newValue="0.0036"/>
+        <changeAttribute target="/sbml:sbml/sbml:model/sbml:listOfParameters/sbml:parameter[@id='protGAPDH']" newValue="0.0421"/>
+        <changeAttribute target="/sbml:sbml/sbml:model/sbml:listOfParameters/sbml:parameter[@id='protPGK']" newValue="0.0034"/>
+        <changeAttribute target="/sbml:sbml/sbml:model/sbml:listOfParameters/sbml:parameter[@id='protTIM']" newValue="0.00085"/>
+        <changeAttribute target="/sbml:sbml/sbml:model/sbml:listOfCompartments/sbml:compartment[@id='default_compartment']" newValue="1.0"/>
+      </listOfChanges>
+    </model>
+  </listOfModels>
+  <listOfTasks>
+    <task id="task0_model0_kouril3" modelReference="model0_kouril3" simulationReference="sim0_model0_kouril3"/>
+  </listOfTasks>
+  <listOfDataGenerators>
+    <dataGenerator id="task0_model0_kouril3_time">
+      <listOfVariables>
+        <variable id="time" symbol="urn:sedml:symbol:time" taskReference="task0_model0_kouril3"/>
+      </listOfVariables>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <ci> time </ci>
+      </math>
+    </dataGenerator>
+    <dataGenerator id="task0_model0_kouril3_dhap">
+      <listOfVariables>
+        <variable id="dhap" target="/sbml:sbml/sbml:model/sbml:listOfSpecies/sbml:species[@id='dhap']" taskReference="task0_model0_kouril3"/>
+      </listOfVariables>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <ci> dhap </ci>
+      </math>
+    </dataGenerator>
+    <dataGenerator id="task0_model0_kouril3_f6p">
+      <listOfVariables>
+        <variable id="f6p" target="/sbml:sbml/sbml:model/sbml:listOfSpecies/sbml:species[@id='f6p']" taskReference="task0_model0_kouril3"/>
+      </listOfVariables>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <ci> f6p </ci>
+      </math>
+    </dataGenerator>
+    <dataGenerator id="task0_model0_kouril3_gap">
+      <listOfVariables>
+        <variable id="gap" target="/sbml:sbml/sbml:model/sbml:listOfSpecies/sbml:species[@id='gap']" taskReference="task0_model0_kouril3"/>
+      </listOfVariables>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <ci> gap </ci>
+      </math>
+    </dataGenerator>
+    <dataGenerator id="task0_model0_kouril3_p3g">
+      <listOfVariables>
+        <variable id="p3g" target="/sbml:sbml/sbml:model/sbml:listOfSpecies/sbml:species[@id='p3g']" taskReference="task0_model0_kouril3"/>
+      </listOfVariables>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <ci> p3g </ci>
+      </math>
+    </dataGenerator>
+    <dataGenerator id="plot0_P3G_datagen0">
+      <listOfVariables>
+        <variable id="seek_data_Kouril_time" target="#time"/>
+      </listOfVariables>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <ci> seek_data_Kouril_time </ci>
+      </math>
+    </dataGenerator>
+    <dataGenerator id="plot0_P3G_datagen1">
+      <listOfVariables>
+        <variable id="seek_data_Kouril_P3G" target="#P3G"/>
+      </listOfVariables>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <ci> seek_data_Kouril_P3G </ci>
+      </math>
+    </dataGenerator>
+    <dataGenerator id="plot0_3PG_datagen1">
+      <listOfVariables>
+        <variable id="seek_data_Kouril_F6P" target="#F6P"/>
+      </listOfVariables>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <ci> seek_data_Kouril_F6P </ci>
+      </math>
+    </dataGenerator>
+    <dataGenerator id="plot0_GAP_datagen0">
+      <listOfVariables>
+        <variable id="seek_data_Kouril_time" target="#time"/>
+      </listOfVariables>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <ci> seek_data_Kouril_time </ci>
+      </math>
+    </dataGenerator>
+    <dataGenerator id="plot0_GAP_datagen1">
+      <listOfVariables>
+        <variable id="seek_data_Kouril_GAP" target="#GAP"/>
+      </listOfVariables>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <ci> seek_data_Kouril_GAP </ci>
+      </math>
+    </dataGenerator>
+    <dataGenerator id="plot0_DHAP_datagen0">
+      <listOfVariables>
+        <variable id="seek_data_Kouril_time" target="#time"/>
+      </listOfVariables>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <ci> seek_data_Kouril_time </ci>
+      </math>
+    </dataGenerator>
+    <dataGenerator id="plot0_DHAP_datagen1">
+      <listOfVariables>
+        <variable id="seek_data_Kouril_DHAP" target="#DHAP"/>
+      </listOfVariables>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <ci> seek_data_Kouril_DHAP </ci>
+      </math>
+    </dataGenerator>
+    <dataGenerator id="plot0_PYR_datagen0">
+      <listOfVariables>
+        <variable id="seek_data_Kouril_time" target="#time"/>
+      </listOfVariables>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <ci> seek_data_Kouril_time </ci>
+      </math>
+    </dataGenerator>
+    <dataGenerator id="plot0_PYR_datagen1">
+      <listOfVariables>
+        <variable id="seek_data_Kouril_PYR" target="#PYR"/>
+      </listOfVariables>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <ci> seek_data_Kouril_PYR </ci>
+      </math>
+    </dataGenerator>
+    <dataGenerator id="plot0_pyr_datagen0">
+      <listOfVariables>
+        <variable id="task0_model0_kouril3_time" symbol="urn:sedml:symbol:time" taskReference="task0_model0_kouril3"/>
+      </listOfVariables>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <ci> task0_model0_kouril3_time </ci>
+      </math>
+    </dataGenerator>
+    <dataGenerator id="plot0_pyr_datagen1">
+      <listOfVariables>
+        <variable id="task0_model0_kouril3_pyr" target="/sbml:sbml/sbml:model/sbml:listOfSpecies/sbml:species[@id='pyr']" taskReference="task0_model0_kouril3"/>
+      </listOfVariables>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <ci> task0_model0_kouril3_pyr </ci>
+      </math>
+    </dataGenerator>
+    <dataGenerator id="plot0_3PG_datagen0">
+      <listOfVariables>
+        <variable id="seek_data_Kouril_time" target="#time"/>
+      </listOfVariables>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <ci> seek_data_Kouril_time </ci>
+      </math>
+    </dataGenerator>
+    <dataGenerator id="plot0_dhap_datagen0">
+      <listOfVariables>
+        <variable id="task0_model0_kouril3_time" symbol="urn:sedml:symbol:time" taskReference="task0_model0_kouril3"/>
+      </listOfVariables>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <ci> task0_model0_kouril3_time </ci>
+      </math>
+    </dataGenerator>
+    <dataGenerator id="plot0_dhap_datagen1">
+      <listOfVariables>
+        <variable id="task0_model0_kouril3_dhap" symbol="urn:sedml:symbol:dhap" taskReference="task0_model0_kouril3"/>
+      </listOfVariables>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <ci> task0_model0_kouril3_dhap </ci>
+      </math>
+    </dataGenerator>
+    <dataGenerator id="plot0_gap_datagen0">
+      <listOfVariables>
+        <variable id="task0_model0_kouril3_time" symbol="urn:sedml:symbol:time" taskReference="task0_model0_kouril3"/>
+      </listOfVariables>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <ci> task0_model0_kouril3_time </ci>
+      </math>
+    </dataGenerator>
+    <dataGenerator id="plot0_gap_datagen1">
+      <listOfVariables>
+        <variable id="task0_model0_kouril3_gap" symbol="urn:sedml:symbol:gap" taskReference="task0_model0_kouril3"/>
+      </listOfVariables>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <ci> task0_model0_kouril3_gap </ci>
+      </math>
+    </dataGenerator>
+    <dataGenerator id="plot0_GAP_datagen2">
+      <listOfVariables>
+        <variable id="seek_data_Kouril_time" target="#time"/>
+      </listOfVariables>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <ci> seek_data_Kouril_time </ci>
+      </math>
+    </dataGenerator>
+    <dataGenerator id="plot0_GAP_datagen3">
+      <listOfVariables>
+        <variable id="seek_data_Kouril_GAP" target="#GAP"/>
+      </listOfVariables>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <ci> seek_data_Kouril_GAP </ci>
+      </math>
+    </dataGenerator>
+    <dataGenerator id="plot0_DHAP_datagen2">
+      <listOfVariables>
+        <variable id="seek_data_Kouril_time" target="#time"/>
+      </listOfVariables>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <ci> seek_data_Kouril_time </ci>
+      </math>
+    </dataGenerator>
+    <dataGenerator id="plot0_DHAP_datagen3">
+      <listOfVariables>
+        <variable id="seek_data_Kouril_DHAP" target="#DHAP"/>
+      </listOfVariables>
+      <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <ci> seek_data_Kouril_DHAP </ci>
+      </math>
+    </dataGenerator>
+  </listOfDataGenerators>
+  <listOfOutputs>
+    <plot2D id="plot0" name="plot0">
+      <listOfCurves>
+        <curve id="plot0_f6p" name="f6p" logX="false" logY="false" xDataReference="task0_model0_kouril3_time" yDataReference="task0_model0_kouril3_f6p"/>
+        <curve id="plot0_p3g" name="p3g" logX="false" logY="false" xDataReference="task0_model0_kouril3_time" yDataReference="task0_model0_kouril3_p3g"/>
+        <curve id="plot0_3PG" name="3PG-data" logX="false" logY="false" xDataReference="plot0_P3G_datagen0" yDataReference="plot0_P3G_datagen1"/>
+        <curve id="plot0_F6P" name="F6P-data" logX="false" logY="false" xDataReference="plot0_3PG_datagen0" yDataReference="plot0_3PG_datagen1"/>
+        <curve id="plot0_PYR" name="PYR-data" logX="false" logY="false" xDataReference="plot0_PYR_datagen0" yDataReference="plot0_PYR_datagen1"/>
+        <curve id="plot0_pyr" name="pyr" logX="false" logY="false" xDataReference="plot0_pyr_datagen0" yDataReference="plot0_pyr_datagen1"/>
+      </listOfCurves>
+    </plot2D>
+    <plot2D id="plot1" name="plot1">
+      <listOfCurves>
+        <curve id="plot0_dhap" name="dhap" logX="false" logY="false" xDataReference="plot0_dhap_datagen0" yDataReference="plot0_dhap_datagen1"/>
+        <curve id="plot0_gap" name="gap" logX="false" logY="false" xDataReference="plot0_gap_datagen0" yDataReference="plot0_gap_datagen1"/>
+        <curve id="plot0_GAP" name="GAP-data" logX="false" logY="false" xDataReference="plot0_GAP_datagen2" yDataReference="plot0_GAP_datagen3"/>
+        <curve id="plot0_DHAP" name="DHAP-data" logX="false" logY="false" xDataReference="plot0_DHAP_datagen2" yDataReference="plot0_DHAP_datagen3"/>
+      </listOfCurves>
+    </plot2D>
+    <report id="csv0">
+      <listOfDataSets>
+        <dataSet id="csv0_time" label="time" name="time" dataReference="task0_model0_kouril3_time"/>
+        <dataSet id="csv0_dhap" label="dhap" name="dhap" dataReference="task0_model0_kouril3_dhap"/>
+        <dataSet id="csv0_f6p" label="f6p" name="f6p" dataReference="task0_model0_kouril3_f6p"/>
+        <dataSet id="csv0_gap" label="gap" name="gap" dataReference="task0_model0_kouril3_gap"/>
+        <dataSet id="csv0_p3g" label="p3g" name="p3g" dataReference="task0_model0_kouril3_p3g"/>
+      </listOfDataSets>
+    </report>
+  </listOfOutputs>
+</sedML>

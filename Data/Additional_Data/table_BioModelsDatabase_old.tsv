@@ -1,0 +1,49 @@
+id	states	reactions	parameters	t_start	t_end	t_steps	Annotation	error_message
+{Bungay2003}_{Bungay2003.xml}	74	66	110	0	500	1000	"exists in JWS: (0,500,1000)
+Figures from JW match but in weird order!!!!"	OK
+{Bungay2006}_{Bungay2006.xml}	78	69	113	0	500	1000	"exists in JWS: (0,500,1000)
+Figures from JW match but in weird order!!!!"	OK
+{Bungay2006a}_{Bungay2006a.xml}	54	45	75	0	500	1000	"exists in JWS: (0,500,1000)
+Figures from JW match but in weird order!!!!"	OK
+{Carbo2013}_{Carbo2013.xml}	94	53	5				does not exist yet	Initial assignments for parameters are currently not supported
+{Eungdamrong2007}_{Eungdamrong2007.xml}	46	43	26	0	4000	100	does not exist yet	OK
+{Holzhutter2004}_{Holzhutter2004.xml}	45	38	0	0	100	10	does not exist yet	OK
+{Hui2014}_{Hui2014.xml}	65	117	113	0	100	10	does not exist yet ---- only in steady state	OK
+{Lai2014}_{Lai2014.xml}	195	576	80	0	100	10	does not exist yet	OK
+{Leber2015}_{Leber2015.xml}	23	30	0	0	240	1000	does not exist yet	OK
+{Leloup1999}_{Leloup1999.xml}	10	24	4	0	72	1000	"exists in JWS: (0,72,1000) 
+Also could not be imported
+looks like: 1h ~ 1time point"	"Kinetic law ""Cell * PT_complex_formation_k3 * P2 * T2 - Cell * PT_complex_formation_k4 * CC"" contains an unsupported expression!"
+{Levchenko2000a}_{Levchenko2000a.xml}	86	300	0	0	500	1000	"exists in JWS: (0,500,1000) –- only in steady state
+Exists under {levchenko2000_fig2-user}_{model6_levchenko1}
+Figures from JWS don’t match!!!!"	OK
+{Liu2011}_{Liu2011.xml}	42	45	85	0	2 * 1.00E+04	1000	exists in JWS: (0,20000,1000)	OK
+{Mueller2015}_{Mueller2015.xml}	39	69	79	0	72	1000	does not exist yet	Species assignment rules are currently not supported!
+{Nakakuki2010}_{Nakakuki2010.xml}	49	78	141	0	5500	1000	"exists in JWS: (0,5500,1000)
+But can’t be simulated because of Jacobian entries == NaN"	OK
+{Nayak2015}_{Nayak2015.xml}	66	62	106				does not exist yet	Species assignment rules are currently not supported!
+{ODea2007}_{ODea2007.xml}	24	51	3	0	4000	1000	exists in JWS: (0,4000,1000)	OK
+{Ouzounoglou2014}_{Ouzounoglou2014.xml}	90	136	14	0	100	10	does not exist yet ---- only in steady state	OK
+{Pathak2013}_{Pathak2013.xml}	57	86	172	0	100	10	does not exist yet ---- only in steady state	OK
+{Pathak2013a}_{Pathak2013a.xml}	52	88	176	0	100	10	does not exist yet ---- only in steady state	OK
+{Pritchard2002}_{Pritchard2002.xml}	25	19	0	0	100	10	does not exist yet	OK
+{Proctor2010}_{Proctor2010.xml}	59	93	58				does not exist yet	"Kinetic law ""kbinE1Ub * E1 * Ub * ATP / (5000 + ATP)"" contains an unsupported expression!"
+{Proctor2010a}_{Proctor2010a.xml}	136	316	92	0	96	1000	does not exist yet	"Kinetic law ""kbinE1Ub * E1 * Ub * ATP / (5000 + ATP)"" contains an unsupported expression!"
+{Proctor2013}_{Proctor2013.xml}	69	112	73				does not exist yet	Events are currently not supported!
+{Proctor2013a}_{Proctor2013a.xml}	75	132	131	0	100	1000	does not exist yet ---- only in steady state	OK
+{Proctor2013b}_{Proctor2013b.xml}	69	112	73				does not exist yet	Events are currently not supported!
+{Qi2013}_{Qi2013.xml}	111	127	204	0	12	1000	does not exist yet	Species assignment rules are currently not supported!
+{Qi2013a}_{Qi2013a.xml}	136	316	92	0	12	1000	does not exist yet	"Kinetic law ""kbinE1Ub * E1 * Ub * ATP / (5000 + ATP)"" contains an unsupported expression!"
+{Sasagawa2005}_{Sasagawa2005.xml}	99	150	0	0	2 * 1.00E+04	1000	does not exist yet	OK
+{Sengupta2015}_{Sengupta2015.xml}	240	175	0	0	100	10	"does not exist yet
+Get different results for step_size = 1000 and 10 !!!!"	OK
+{Singh2006}_{Singh2006.xml}	68	72	105	0	8 * 1.00E+05	10000	does not exist yet	OK
+{Sivakumar2011c}_{Sivakumar2011c.xml}	50	29	56	0	100	10	does not exist yet --- only in steady state	OK
+{Smallbone2013d}_{Smallbone2013d.xml}	786	399	420				does not exist yet	"Encountered unsupported expression ""abs"" of type ""<class 'sympy.core.function.UndefinedFunction'>"" as part of a KineticLaw: ""abs(r_1551_v0*(r_1551_ep0543*log(s_0543/ic0543) + 1) - zero_flux)""!"
+{Smallbone2013g}_{Smallbone2013g.xml}	657	282	0				does not exist yet	"Encountered unsupported expression ""abs"" of type ""<class 'sympy.core.function.UndefinedFunction'>"" as part of a KineticLaw: ""abs(r_2111_V0*(r_2111_ep0002*log(s_0002/r_2111_ic0002) + r_2111_ep0004*log(s_0004/r_2111_ic0004) + r_2111_ep0056*log(s_0056/r_2111_ic0056) + r_2111_ep0089*log(s_0089/r_2111_ic0089) + r_2111_ep0122*log(s_0122/r_2111_ic0122) + r_2111_ep0404*log(s_0404/r_2111_ic0404) + r_2111_ep0423*log(s_0423/r_2111_ic0423) + r_2111_ep0428*log(s_0428/r_2111_ic0428) + r_2111_ep0430*log(s_0430/r_2111_ic0430) + r_2111_ep0432*log(s_0432/r_2111_ic0432) + r_2111_ep0434*log(s_0434/r_2111_ic0434) + r_2111_ep0526*log(s_0526/r_2111_ic0526) + r_2111_ep0542*log(s_0542/r_2111_ic0542) + r_2111_ep0584*log(s_0584/r_2111_ic0584) + r_2111_ep0589*log(s_0589/r_2111_ic0589) + r_2111_ep0615*log(s_0615/r_2111_ic0615) + r_2111_ep0649*log(s_0649/r_2111_ic0649) + r_2111_ep0657*log(s_0657/r_2111_ic0657) + r_2111_ep0662*log(s_0662/r_2111_ic0662) + r_2111_ep0666*log(s_0666/r_2111_ic0666) + r_2111_ep0672*log(s_0672/r_2111_ic0672) + r_2111_ep0700*log(s_0700/r_2111_ic0700) + r_2111_ep0747*log(s_0747/r_2111_ic0747) + r_2111_ep0748*log(s_0748/r_2111_ic0748) + r_2111_ep0757*log(s_0757/r_2111_ic0757) + r_2111_ep0773*log(s_0773/r_2111_ic0773) + r_2111_ep0782*log(s_0782/r_2111_ic0782) + r_2111_ep0832*log(s_0832/r_2111_ic0832) + r_2111_ep0847*log(s_0847/r_2111_ic0847) + r_2111_ep0918*log(s_0918/r_2111_ic0918) + r_2111_ep1059*log(s_1059/r_2111_ic1059) + r_2111_ep1077*log(s_1077/r_2111_ic1077) + r_2111_ep1099*log(s_1099/r_2111_ic1099) + r_2111_ep1107*log(s_1107/r_2111_ic1107) + r_2111_ep1148*log(s_1148/r_2111_ic1148) + r_2111_ep1314*log(s_1314/r_2111_ic1314) + r_2111_ep1337*log(s_1337/r_2111_ic1337) + r_2111_ep1346*log(s_1346/r_2111_ic1346) + r_2111_ep1351*log(s_1351/r_2111_ic1351) + r_2111_ep1379*log(s_1379/r_2111_ic1379) + r_2111_ep1405*log(s_1405/r_2111_ic1405) + r_2111_ep1428*log(s_1428/r_2111_ic1428) + r_2111_ep1467*log(s_1467/r_2111_ic1467) + r_2111_ep1491*log(s_1491/r_2111_ic1491) + r_2111_ep1520*log(s_1520/r_2111_ic1520) + r_2111_ep1524*log(s_1524/r_2111_ic1524) + r_2111_ep1527*log(s_1527/r_2111_ic1527) + r_2111_ep1533*log(s_1533/r_2111_ic1533) + r_2111_ep1545*log(s_1545/r_2111_ic1545) + r_2111_ep1561*log(s_1561/r_2111_ic1561) + r_2111_ep1569*log(s_1569/r_2111_ic1569) + 1) - r_2111_zero_flux)""!"
+{Ueda2001}_{Ueda2001.xml}	13	32	0	0	72	1000	"Does not exist yet
+And can’t be simulated because of Jacobian entries == NaN
+Maybe event at t = 0 ?"	OK
+{Ung2008}_{Ung2008.xml}	194	205	0	0	4000	1000	does not exist yet	OK
+{Yang2007}_{Yang2007.xml}	25	32	54	0	4 * 1.00E+05	10000	does not exist yet	OK
+{vanEunen2013}_{vanEunen2013.xml}	54	59	140				does not exist yet	Species assignment rules are currently not supported!

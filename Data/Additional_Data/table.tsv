@@ -1,0 +1,735 @@
+	id	states	reactions	error_message
+0	{Bungay2003}_{Bungay2003.xml}	74	66	OK
+1	{Bungay2006}_{Bungay2006.xml}	78	69	OK
+2	{Bungay2006a}_{Bungay2006a.xml}	54	45	OK
+3	{Carbo2013}_{Carbo2013.xml}	94	53	Initial assignments for parameters are currently not supported
+4	{Eungdamrong2007}_{Eungdamrong2007.xml}	46	43	OK
+5	{Froehlich2018}_{Froehlich2018.xml}	1396	2686	OK
+6	{Holzhutter2004}_{Holzhutter2004.xml}	45	38	OK
+7	{Hui2014}_{Hui2014.xml}	65	117	OK
+8	{Lai2014}_{Lai2014.xml}	195	576	OK
+9	{Leber2015}_{Leber2015.xml}	23	30	OK
+10	{Leloup1999}_{Leloup1999.xml}	10	24	OK
+11	{Levchenko2000a}_{Levchenko2000a.xml}	86	300	OK
+12	{Liu2011}_{Liu2011.xml}	42	45	OK
+13	{Mueller2015}_{Mueller2015.xml}	39	69	Species assignment rules are currently not supported!
+14	{Nakakuki2010}_{Nakakuki2010.xml}	49	78	OK
+15	{Nayak2015}_{Nayak2015.xml}	66	62	Species assignment rules are currently not supported!
+16	{ODea2007}_{ODea2007.xml}	24	51	OK
+17	{Ouzounoglou2014}_{Ouzounoglou2014.xml}	90	136	OK
+18	{Pathak2013}_{Pathak2013.xml}	57	86	OK
+19	{Pathak2013a}_{Pathak2013a.xml}	52	88	OK
+20	{Pritchard2002}_{Pritchard2002.xml}	25	19	OK
+21	{Proctor2010}_{Proctor2010.xml}	59	93	"Sympify of expression 'could not parse 'piecewise(25, (time >= 3600) && (time <= 3660), 0)'' failed, because of exception being raised:
+SyntaxError: invalid syntax (<string>, line 1)"
+22	{Proctor2010a}_{Proctor2010a.xml}	136	316	OK
+23	{Proctor2013}_{Proctor2013.xml}	69	112	Events are currently not supported!
+24	{Proctor2013a}_{Proctor2013a.xml}	75	132	OK
+25	{Proctor2013b}_{Proctor2013b.xml}	69	112	Events are currently not supported!
+26	{Qi2013}_{Qi2013.xml}	111	127	Species assignment rules are currently not supported!
+27	{Qi2013a}_{Qi2013a.xml}	136	316	OK
+28	{Sasagawa2005}_{Sasagawa2005.xml}	99	150	OK
+29	{Sengupta2015}_{Sengupta2015.xml}	240	175	OK
+30	{Singh2006}_{Singh2006.xml}	68	72	OK
+31	{Sivakumar2011c}_{Sivakumar2011c.xml}	50	29	OK
+32	{Smallbone2013d}_{Smallbone2013d.xml}	786	399	"Encountered unsupported expression ""abs"" of type ""<class 'sympy.core.function.UndefinedFunction'>"" as part of a KineticLaw: ""abs(r_1551_v0*(r_1551_ep0543*log(s_0543/ic0543) + 1) - zero_flux)""!"
+33	{Smallbone2013g}_{Smallbone2013g.xml}	657	282	"Encountered unsupported expression ""abs"" of type ""<class 'sympy.core.function.UndefinedFunction'>"" as part of a KineticLaw: ""abs(r_2111_V0*(r_2111_ep0002*log(s_0002/r_2111_ic0002) + r_2111_ep0004*log(s_0004/r_2111_ic0004) + r_2111_ep0056*log(s_0056/r_2111_ic0056) + r_2111_ep0089*log(s_0089/r_2111_ic0089) + r_2111_ep0122*log(s_0122/r_2111_ic0122) + r_2111_ep0404*log(s_0404/r_2111_ic0404) + r_2111_ep0423*log(s_0423/r_2111_ic0423) + r_2111_ep0428*log(s_0428/r_2111_ic0428) + r_2111_ep0430*log(s_0430/r_2111_ic0430) + r_2111_ep0432*log(s_0432/r_2111_ic0432) + r_2111_ep0434*log(s_0434/r_2111_ic0434) + r_2111_ep0526*log(s_0526/r_2111_ic0526) + r_2111_ep0542*log(s_0542/r_2111_ic0542) + r_2111_ep0584*log(s_0584/r_2111_ic0584) + r_2111_ep0589*log(s_0589/r_2111_ic0589) + r_2111_ep0615*log(s_0615/r_2111_ic0615) + r_2111_ep0649*log(s_0649/r_2111_ic0649) + r_2111_ep0657*log(s_0657/r_2111_ic0657) + r_2111_ep0662*log(s_0662/r_2111_ic0662) + r_2111_ep0666*log(s_0666/r_2111_ic0666) + r_2111_ep0672*log(s_0672/r_2111_ic0672) + r_2111_ep0700*log(s_0700/r_2111_ic0700) + r_2111_ep0747*log(s_0747/r_2111_ic0747) + r_2111_ep0748*log(s_0748/r_2111_ic0748) + r_2111_ep0757*log(s_0757/r_2111_ic0757) + r_2111_ep0773*log(s_0773/r_2111_ic0773) + r_2111_ep0782*log(s_0782/r_2111_ic0782) + r_2111_ep0832*log(s_0832/r_2111_ic0832) + r_2111_ep0847*log(s_0847/r_2111_ic0847) + r_2111_ep0918*log(s_0918/r_2111_ic0918) + r_2111_ep1059*log(s_1059/r_2111_ic1059) + r_2111_ep1077*log(s_1077/r_2111_ic1077) + r_2111_ep1099*log(s_1099/r_2111_ic1099) + r_2111_ep1107*log(s_1107/r_2111_ic1107) + r_2111_ep1148*log(s_1148/r_2111_ic1148) + r_2111_ep1314*log(s_1314/r_2111_ic1314) + r_2111_ep1337*log(s_1337/r_2111_ic1337) + r_2111_ep1346*log(s_1346/r_2111_ic1346) + r_2111_ep1351*log(s_1351/r_2111_ic1351) + r_2111_ep1379*log(s_1379/r_2111_ic1379) + r_2111_ep1405*log(s_1405/r_2111_ic1405) + r_2111_ep1428*log(s_1428/r_2111_ic1428) + r_2111_ep1467*log(s_1467/r_2111_ic1467) + r_2111_ep1491*log(s_1491/r_2111_ic1491) + r_2111_ep1520*log(s_1520/r_2111_ic1520) + r_2111_ep1524*log(s_1524/r_2111_ic1524) + r_2111_ep1527*log(s_1527/r_2111_ic1527) + r_2111_ep1533*log(s_1533/r_2111_ic1533) + r_2111_ep1545*log(s_1545/r_2111_ic1545) + r_2111_ep1561*log(s_1561/r_2111_ic1561) + r_2111_ep1569*log(s_1569/r_2111_ic1569) + 1) - r_2111_zero_flux)""!"
+34	{Ueda2001}_{Ueda2001.xml}	13	32	OK
+35	{Ung2008}_{Ung2008.xml}	194	205	OK
+36	{Yang2007}_{Yang2007.xml}	25	32	OK
+37	{adlung2017_fig2bto2e}_{model0_adlung1.sbml}	44	61	Species assignment rules are currently not supported!
+38	{adlung2017_fig2bto2e}_{model1_adlung2.sbml}	44	60	Species assignment rules are currently not supported!
+39	{adlung2017_fig2bto2e}_{model2_adlung2.sbml}	44	60	Species assignment rules are currently not supported!
+40	{adlung2017_fig2f}_{model0_adlung1.sbml}	44	61	Species assignment rules are currently not supported!
+41	{adlung2017_fig2f}_{model10_adlung2.sbml}	44	60	Species assignment rules are currently not supported!
+42	{adlung2017_fig2f}_{model1_adlung2.sbml}	44	60	Species assignment rules are currently not supported!
+43	{adlung2017_fig2f}_{model2_adlung1.sbml}	44	61	Species assignment rules are currently not supported!
+44	{adlung2017_fig2f}_{model3_adlung1.sbml}	44	61	Species assignment rules are currently not supported!
+45	{adlung2017_fig2f}_{model4_adlung1.sbml}	44	61	Species assignment rules are currently not supported!
+46	{adlung2017_fig2f}_{model5_adlung1.sbml}	44	61	Species assignment rules are currently not supported!
+47	{adlung2017_fig2f}_{model6_adlung2.sbml}	44	60	Species assignment rules are currently not supported!
+48	{adlung2017_fig2f}_{model7_adlung2.sbml}	44	60	Species assignment rules are currently not supported!
+49	{adlung2017_fig2f}_{model8_adlung2.sbml}	44	60	Species assignment rules are currently not supported!
+50	{adlung2017_fig2f}_{model9_adlung2.sbml}	44	60	Species assignment rules are currently not supported!
+51	{adlung2017_fig2g}_{model0_adlung1.sbml}	44	61	Species assignment rules are currently not supported!
+52	{adlung2017_fig2g}_{model10_adlung2.sbml}	44	60	Species assignment rules are currently not supported!
+53	{adlung2017_fig2g}_{model1_adlung2.sbml}	44	60	Species assignment rules are currently not supported!
+54	{adlung2017_fig2g}_{model2_adlung1.sbml}	44	61	Species assignment rules are currently not supported!
+55	{adlung2017_fig2g}_{model3_adlung1.sbml}	44	61	Species assignment rules are currently not supported!
+56	{adlung2017_fig2g}_{model4_adlung1.sbml}	44	61	Species assignment rules are currently not supported!
+57	{adlung2017_fig2g}_{model5_adlung1.sbml}	44	61	Species assignment rules are currently not supported!
+58	{adlung2017_fig2g}_{model6_adlung2.sbml}	44	60	Species assignment rules are currently not supported!
+59	{adlung2017_fig2g}_{model7_adlung2.sbml}	44	60	Species assignment rules are currently not supported!
+60	{adlung2017_fig2g}_{model8_adlung2.sbml}	44	60	Species assignment rules are currently not supported!
+61	{adlung2017_fig2g}_{model9_adlung2.sbml}	44	60	Species assignment rules are currently not supported!
+62	{aguda1999_fig5c}_{model0_aguda1.sbml}	12	27	OK
+63	{akman2008_fig5-user}_{model0_akman2.sbml}	5	8	"Encountered unsupported expression ""floor(time/24)"" of type ""floor"" as part of a KineticLaw: ""-48*floor(time/24)""!"
+64	{akman2008_fig6-user}_{model0_akman1.sbml}	16	24	"Encountered unsupported expression ""floor(time/24)"" of type ""floor"" as part of a KineticLaw: ""-576*floor(time/24)""!"
+65	{alexander2010_fig2-user}_{model0_alexander1.sbml}	5	12	OK
+66	{alexander2010_fig2-user}_{model1_alexander1.sbml}	5	12	OK
+67	{alexander2010_fig2-user-2}_{model0_alexander2.sbml}	5	12	OK
+68	{alexander2010_fig2-user-2}_{model1_alexander2.sbml}	5	12	OK
+69	{alsheihk2011_fig3-user}_{model0_alsheihk1.sbml}	5	10	OK
+70	{alsheihk2011_fig3-user}_{model1_alsheihk1.sbml}	5	10	OK
+71	{alsheihk2011_fig3-user}_{model2_alsheihk1.sbml}	5	10	OK
+72	{alsheihk2011_fig4-user}_{model0_alsheihk1.sbml}	5	10	OK
+73	{alsheihk2011_fig4-user}_{model1_alsheihk1.sbml}	5	10	OK
+74	{alsheihk2011_fig4-user}_{model2_alsheihk1.sbml}	5	10	OK
+75	{alsheihk2011_fig5-user}_{model0_alsheihk1.sbml}	5	10	OK
+76	{alsheihk2011_fig5-user}_{model1_alsheihk1.sbml}	5	10	OK
+77	{alsheihk2011_fig5-user}_{model2_alsheihk1.sbml}	5	10	OK
+78	{alsheihk2011_fig6-user}_{model0_alsheihk1.sbml}	5	10	OK
+79	{alsheihk2011_fig6-user}_{model1_alsheihk1.sbml}	5	10	OK
+80	{alsheihk2011_fig6-user}_{model2_alsheihk1.sbml}	5	10	OK
+81	{alsheihk2011_fig7-user}_{model0_alsheihk1.sbml}	5	10	OK
+82	{alsheihk2011_fig7-user}_{model1_alsheihk1.sbml}	5	10	OK
+83	{alsheihk2011_fig7-user}_{model2_alsheihk1.sbml}	5	10	OK
+84	{arnaout2000_fig1-user}_{model0_arnaout1.sbml}	3	7	"Kinetic law ""lambda"" contains an unsupported expression!"
+85	{ataullahkhanov1996_fig2-user}_{model0_ataullahkhanov1.sbml}	3	5	Command '['/home/paulstapor/anaconda3/envs/PENV/bin/python', '/home/paulstapor/sbml2amici/amici_models/ataullahkhanov1996_fig2-user/model0_ataullahkhanov1/setup.py', '--quiet', 'build_ext', '--build-lib=/home/paulstapor/sbml2amici/amici_models/ataullahkhanov1996_fig2-user/model0_ataullahkhanov1']' returned non-zero exit status 1.
+86	{bachar2004_fig1-user}_{model0_bachar1.sbml}	4	8	OK
+87	{bachmann2011}_{bachmann.sbml}	26	36	OK
+88	{bachmann2011_figs9-user}_{model0_bachmann2.sbml}	26	36	OK
+89	{bai2003_fig2-user}_{model0_bai1.sbml}	6	12	OK
+90	{bajaria2002_fig2}_{model0_bajaria.sbml}	4	13	"Kinetic law ""lambda * muN * NL"" contains an unsupported expression!"
+91	{balagadde2008_fig2-user}_{model0_balagadde1.sbml}	7	8	OK
+92	{balagadde2008_fig2-user}_{model1_balagadde1.sbml}	7	8	OK
+93	{balagadde2008_fig2-user}_{model2_balagadde1.sbml}	7	8	OK
+94	{band2012_figs15-user}_{model0_band1.sbml}	5	9	"Kinetic law ""lambda * VENUS"" contains an unsupported expression!"
+95	{band2012_figs15-user}_{model1_band1.sbml}	5	9	"Kinetic law ""lambda * VENUS"" contains an unsupported expression!"
+96	{band2012_figs15-user}_{model2_band1.sbml}	5	9	"Kinetic law ""lambda * VENUS"" contains an unsupported expression!"
+97	{band2012_figs15-user}_{model3_band1.sbml}	5	9	"Kinetic law ""lambda * VENUS"" contains an unsupported expression!"
+98	{band2012_figs15-user}_{model4_band1.sbml}	5	9	"Kinetic law ""lambda * VENUS"" contains an unsupported expression!"
+99	{band2012_figs15-user}_{model5_band1.sbml}	5	9	"Kinetic law ""lambda * VENUS"" contains an unsupported expression!"
+100	{band2012_figs15-user}_{model6_band1.sbml}	5	9	"Kinetic law ""lambda * VENUS"" contains an unsupported expression!"
+101	{band2012_figs15-user}_{model7_band1.sbml}	5	9	"Kinetic law ""lambda * VENUS"" contains an unsupported expression!"
+102	{band2012_figs19-user}_{model0_band2.sbml}	1	3	OK
+103	{band2012_figs19-user}_{model1_band2.sbml}	1	3	OK
+104	{band2012_figs19-user}_{model2_band2.sbml}	1	3	OK
+105	{band2012_figs19-user}_{model3_band2.sbml}	1	3	OK
+106	{band2012_figs19-user}_{model4_band2.sbml}	1	3	OK
+107	{band2012_figs19-user}_{model5_band2.sbml}	1	3	OK
+108	{bartholome2007_fig3-user}_{model0_bartholome2007.sbml}	7	10	SBML Document failed to load (see error messages above)
+109	{becker2010_fig2b-user}_{model0_becker1.sbml}	6	8	OK
+110	{becker2010_figs4-user}_{model0_becker2.sbml}	6	8	OK
+111	{bertram2006_fig1-user}_{model0_bertram1.sbml}	3	3	SBML Document failed to load (see error messages above)
+112	{beuke2017_fig6}_{model0_beuke1.sbml}	33	57	OK
+113	{beuke2017_fig6}_{model10_beuke11.sbml}	33	57	OK
+114	{beuke2017_fig6}_{model11_beuke12.sbml}	33	57	OK
+115	{beuke2017_fig6}_{model12_beuke13.sbml}	33	57	OK
+116	{beuke2017_fig6}_{model13_beuke14.sbml}	33	57	OK
+117	{beuke2017_fig6}_{model14_beuke15.sbml}	33	57	OK
+118	{beuke2017_fig6}_{model15_beuke16.sbml}	33	57	OK
+119	{beuke2017_fig6}_{model16_beuke17.sbml}	33	57	OK
+120	{beuke2017_fig6}_{model17_beuke18.sbml}	33	57	OK
+121	{beuke2017_fig6}_{model18_beuke19.sbml}	33	57	OK
+122	{beuke2017_fig6}_{model19_beuke20.sbml}	33	57	OK
+123	{beuke2017_fig6}_{model1_beuke2.sbml}	33	57	OK
+124	{beuke2017_fig6}_{model20_beuke21.sbml}	33	57	OK
+125	{beuke2017_fig6}_{model21_beuke22.sbml}	33	57	OK
+126	{beuke2017_fig6}_{model22_beuke23.sbml}	33	57	OK
+127	{beuke2017_fig6}_{model23_beuke24.sbml}	33	57	OK
+128	{beuke2017_fig6}_{model24_beuke25.sbml}	33	57	OK
+129	{beuke2017_fig6}_{model25_beuke26.sbml}	33	57	OK
+130	{beuke2017_fig6}_{model26_beuke27.sbml}	33	57	OK
+131	{beuke2017_fig6}_{model27_beuke28.sbml}	33	57	OK
+132	{beuke2017_fig6}_{model28_beuke29.sbml}	33	57	OK
+133	{beuke2017_fig6}_{model29_beuke30.sbml}	33	57	OK
+134	{beuke2017_fig6}_{model2_beuke3.sbml}	33	57	OK
+135	{beuke2017_fig6}_{model3_beuke4.sbml}	33	57	OK
+136	{beuke2017_fig6}_{model4_beuke5.sbml}	33	57	OK
+137	{beuke2017_fig6}_{model5_beuke6.sbml}	33	57	OK
+138	{beuke2017_fig6}_{model6_beuke7.sbml}	33	57	OK
+139	{beuke2017_fig6}_{model7_beuke8.sbml}	33	57	OK
+140	{beuke2017_fig6}_{model8_beuke9.sbml}	33	57	OK
+141	{beuke2017_fig6}_{model9_beuke10.sbml}	33	57	OK
+142	{bhartiya2003_fig3}_{model0_bhartiya1.sbml}	4	5	Species assignment rules are currently not supported!
+143	{bhartiya2003_fig3}_{model1_bhartiya1.sbml}	4	5	Species assignment rules are currently not supported!
+144	{bhartiya2003_fig3}_{model2_bhartiya1.sbml}	4	5	Species assignment rules are currently not supported!
+145	{bier2000_fig3-user}_{model0_bier2.sbml}	4	6	OK
+146	{bindschadler2001_fig5b-user}_{model0_bindschadler1.sbml}	4	11	OK
+147	{blum2000_fig1e-user}_{model0_blum1.sbml}	8	5	Events are currently not supported!
+148	{borghans1997_fig12a-user}_{model0_borghans3.sbml}	4	8	OK
+149	{borghans1997_fig5-user}_{model0_borghans1.sbml}	5	7	OK
+150	{borghans1997_fig8-user}_{model0_borghans2.sbml}	4	8	OK
+151	{borisov2009_fig3a-user}_{model0_borisov1.sbml}	86	109	Species assignment rules are currently not supported!
+152	{borisov2009_fig3a-user}_{model1_borisov1.sbml}	86	109	Species assignment rules are currently not supported!
+153	{borisov2009_fig3a-user}_{model2_borisov1.sbml}	86	109	Species assignment rules are currently not supported!
+154	{borisov2009_fig3a-user}_{model3_borisov1.sbml}	86	109	Species assignment rules are currently not supported!
+155	{brands2002_fig2-user}_{model0_brands1.sbml}	11	11	OK
+156	{bray1993_fig8b-user}_{model0_bray2.sbml}	29	35	Events are currently not supported!
+157	{bray1993_fig8b-user}_{model1_bray2.sbml}	29	35	Events are currently not supported!
+158	{bray1993_fig8b-user}_{model2_bray2.sbml}	29	35	Events are currently not supported!
+159	{bucher2011_fig2-user}_{model0_bucher1.sbml}	18	29	OK
+160	{bungay2003_fig4-user}_{model0_bungay3.sbml}	74	66	OK
+161	{bungay2003_fig4-user}_{model1_bungay3.sbml}	74	66	OK
+162	{bungay2003_fig4-user}_{model2_bungay3.sbml}	74	66	OK
+163	{bungay2003_fig4-user}_{model3_bungay3.sbml}	74	66	OK
+164	{bungay2003_fig4-user}_{model4_bungay3.sbml}	74	66	OK
+165	{bungay2003_fig4-user}_{model5_bungay3.sbml}	74	66	OK
+166	{bungay2003_fig4-user}_{model6_bungay3.sbml}	74	66	OK
+167	{bungay2006_fig3a-user}_{model0_bungay2.sbml}	54	45	OK
+168	{bungay2006_fig3b-user}_{model0_bungay1.sbml}	78	69	OK
+169	{butenas2004_fig1-user}_{model0_butenas1.sbml}	34	33	OK
+170	{cai2009_fig2and3-user}_{model0_cai1.sbml}	5	10	Command '['/home/paulstapor/anaconda3/envs/PENV/bin/python', '/home/paulstapor/sbml2amici/amici_models/cai2009_fig2and3-user/model0_cai1/setup.py', '--quiet', 'build_ext', '--build-lib=/home/paulstapor/sbml2amici/amici_models/cai2009_fig2and3-user/model0_cai1']' returned non-zero exit status 1.
+171	{cai2009_fig2and3-user}_{model1_cai1.sbml}	5	10	Command '['/home/paulstapor/anaconda3/envs/PENV/bin/python', '/home/paulstapor/sbml2amici/amici_models/cai2009_fig2and3-user/model1_cai1/setup.py', '--quiet', 'build_ext', '--build-lib=/home/paulstapor/sbml2amici/amici_models/cai2009_fig2and3-user/model1_cai1']' returned non-zero exit status 1.
+172	{callaway2002_fig4-user}_{model0_callaway1.sbml}	4	10	"Kinetic law ""lambda"" contains an unsupported expression!"
+173	{callaway2002_fig4-user}_{model1_callaway1.sbml}	4	10	"Kinetic law ""lambda"" contains an unsupported expression!"
+174	{callaway2002_fig4-user}_{model2_callaway1.sbml}	4	10	"Kinetic law ""lambda"" contains an unsupported expression!"
+175	{callaway2002_fig5-user}_{model0_callaway2.sbml}	4	10	"Kinetic law ""lambda"" contains an unsupported expression!"
+176	{callaway2002_fig5-user}_{model1_callaway2.sbml}	4	10	"Kinetic law ""lambda"" contains an unsupported expression!"
+177	{callaway2002_fig5-user}_{model2_callaway2.sbml}	4	10	"Kinetic law ""lambda"" contains an unsupported expression!"
+178	{callaway2002_fig5-user}_{model3_callaway2.sbml}	4	10	"Kinetic law ""lambda"" contains an unsupported expression!"
+179	{callaway2002_fig8-user}_{model0_callaway3.sbml}	3	6	"Kinetic law ""lambda"" contains an unsupported expression!"
+180	{callaway2002_fig8-user}_{model1_callaway3.sbml}	3	6	"Kinetic law ""lambda"" contains an unsupported expression!"
+181	{callaway2002_fig8-user}_{model2_callaway3.sbml}	3	6	"Kinetic law ""lambda"" contains an unsupported expression!"
+182	{calzone2007_fig1b-user}_{model0_calzone1.sbml}	18	54	Events are currently not supported!
+183	{chan2004_fig3}_{chan1.sbml}	5	10	Events are currently not supported!
+184	{chance1943_fig12-user}_{model0_chance3.sbml}	4	2	OK
+185	{chance1943_fig12-user}_{model1_chance3.sbml}	4	2	OK
+186	{chance1943_fig12-user}_{model2_chance3.sbml}	4	2	OK
+187	{chance1943_fig12-user}_{model3_chance3.sbml}	4	2	OK
+188	{chance1952_fig3-user}_{model0_chance2.sbml}	6	3	Command '['/home/paulstapor/anaconda3/envs/PENV/bin/python', '/home/paulstapor/sbml2amici/amici_models/chance1952_fig3-user/model0_chance2/setup.py', '--quiet', 'build_ext', '--build-lib=/home/paulstapor/sbml2amici/amici_models/chance1952_fig3-user/model0_chance2']' returned non-zero exit status 1.
+189	{chance1952_fig3-user}_{model1_chance2.sbml}	6	3	Command '['/home/paulstapor/anaconda3/envs/PENV/bin/python', '/home/paulstapor/sbml2amici/amici_models/chance1952_fig3-user/model1_chance2/setup.py', '--quiet', 'build_ext', '--build-lib=/home/paulstapor/sbml2amici/amici_models/chance1952_fig3-user/model1_chance2']' returned non-zero exit status 1.
+190	{chance1952_fig3-user}_{model2_chance2.sbml}	6	3	Command '['/home/paulstapor/anaconda3/envs/PENV/bin/python', '/home/paulstapor/sbml2amici/amici_models/chance1952_fig3-user/model2_chance2/setup.py', '--quiet', 'build_ext', '--build-lib=/home/paulstapor/sbml2amici/amici_models/chance1952_fig3-user/model2_chance2']' returned non-zero exit status 1.
+191	{chance1952_fig3-user}_{model3_chance2.sbml}	6	3	Command '['/home/paulstapor/anaconda3/envs/PENV/bin/python', '/home/paulstapor/sbml2amici/amici_models/chance1952_fig3-user/model3_chance2/setup.py', '--quiet', 'build_ext', '--build-lib=/home/paulstapor/sbml2amici/amici_models/chance1952_fig3-user/model3_chance2']' returned non-zero exit status 1.
+192	{chance1952_fig3-user}_{model4_chance2.sbml}	6	3	Command '['/home/paulstapor/anaconda3/envs/PENV/bin/python', '/home/paulstapor/sbml2amici/amici_models/chance1952_fig3-user/model4_chance2/setup.py', '--quiet', 'build_ext', '--build-lib=/home/paulstapor/sbml2amici/amici_models/chance1952_fig3-user/model4_chance2']' returned non-zero exit status 1.
+193	{chance1960_fig3-user}_{model0_chance1.sbml}	32	22	Events are currently not supported!
+194	{chassagnole2001_fig2f-user}_{model0_chassagnole1.sbml}	11	7	SBML Document failed to load (see error messages above)
+195	{chassagnole2002_fig4-user}_{model0_chassagnole2.sbml}	18	48	OK
+196	{chassagnole2002_fig5-user}_{model0_chassagnole2.sbml}	18	48	OK
+197	{chen2008_fig1-user}_{model0_chen3.sbml}	9	15	SBML Document failed to load (see error messages above)
+198	{chen2008_fig2-user}_{model0_chen3.sbml}	9	15	SBML Document failed to load (see error messages above)
+199	{clancy2001_fig4b-user}_{model1_clancy1.sbml}	5	5	"Sympify of expression 'could not parse 'piecewise(vtest, (50 < time) && (time <= 300), vhold)'' failed, because of exception being raised:
+SyntaxError: invalid syntax (<string>, line 1)"
+200	{clancy2001_fig4b-user}_{model2_clancy1.sbml}	5	5	"Sympify of expression 'could not parse 'piecewise(vtest, (50 < time) && (time <= 300), vhold)'' failed, because of exception being raised:
+SyntaxError: invalid syntax (<string>, line 1)"
+201	{clancy2001_fig4b-user}_{model3_clancy1.sbml}	5	5	"Sympify of expression 'could not parse 'piecewise(vtest, (50 < time) && (time <= 300), vhold)'' failed, because of exception being raised:
+SyntaxError: invalid syntax (<string>, line 1)"
+202	{clancy2001_fig4b-user}_{model4_clancy1.sbml}	5	5	"Sympify of expression 'could not parse 'piecewise(vtest, (50 < time) && (time <= 300), vhold)'' failed, because of exception being raised:
+SyntaxError: invalid syntax (<string>, line 1)"
+203	{clancy2001_fig4b-user}_{model5_clancy1.sbml}	5	5	"Sympify of expression 'could not parse 'piecewise(vtest, (50 < time) && (time <= 300), vhold)'' failed, because of exception being raised:
+SyntaxError: invalid syntax (<string>, line 1)"
+204	{clancy2001_fig4b-user}_{model6_clancy1.sbml}	5	5	"Sympify of expression 'could not parse 'piecewise(vtest, (50 < time) && (time <= 300), vhold)'' failed, because of exception being raised:
+SyntaxError: invalid syntax (<string>, line 1)"
+205	{clancy2001_fig4b-user}_{model7_clancy1.sbml}	5	5	"Sympify of expression 'could not parse 'piecewise(vtest, (50 < time) && (time <= 300), vhold)'' failed, because of exception being raised:
+SyntaxError: invalid syntax (<string>, line 1)"
+206	{clancy2001_fig4b-user}_{model8_clancy1.sbml}	5	5	"Sympify of expression 'could not parse 'piecewise(vtest, (50 < time) && (time <= 300), vhold)'' failed, because of exception being raised:
+SyntaxError: invalid syntax (<string>, line 1)"
+207	{clancy2002_fig3b-user}_{model0_clancy2.sbml}	9	11	SBML Document failed to load (see error messages above)
+208	{clarke2006_fig2}_{clarke1_Fig2A.sbml}	10	8	SBML Document failed to load (see error messages above)
+209	{conradie2010_fig2}_{model0_conradie.sbml}	23	52	Events are currently not supported!
+210	{conradie2010_fig2-user}_{model0_conradie2.sbml}	23	52	Events are currently not supported!
+211	{curto1998_fig2-user}_{curto1_Fig2B.sbml}	18	37	OK
+212	{deback2012_fig3d-user}_{model0_deback1.sbml}	4	8	OK
+213	{decroly1982_fig3b-user}_{model0_decroly1.sbml}	3	4	OK
+214	{deineko2003_fig3a-user}_{model0_deineko1.sbml}	6	15	OK
+215	{delcontezerail2008_fig4-user}_{delcontezerail1_Fig4D.sbml}	4	10	OK
+216	{dixit2005_fig2-user}_{model0_dixit1.sbml}	3	6	"Kinetic law ""lambda * T"" contains an unsupported expression!"
+217	{dixit2005_fig2-user}_{model1_dixit1.sbml}	3	6	"Kinetic law ""lambda * T"" contains an unsupported expression!"
+218	{dixit2005_fig2-user}_{model2_dixit1.sbml}	3	6	"Kinetic law ""lambda * T"" contains an unsupported expression!"
+219	{dixit2005_fig2-user}_{model3_dixit1.sbml}	3	6	"Kinetic law ""lambda * T"" contains an unsupported expression!"
+220	{dupont1991_fig4b-user}_{dupont1_Fig4B.sbml}	2	6	Events are currently not supported!
+221	{dupont1992_fig4-user}_{dupont2_Fig4A.sbml}	4	7	OK
+222	{dupont1992_fig4-user}_{dupont2_Fig4B.sbml}	4	7	OK
+223	{dupont1992_fig4-user}_{dupont2_Fig4C.sbml}	4	7	OK
+224	{elowitz2000_fig1c}_{elowitz1_Fig1C_Left.sbml}	6	12	OK
+225	{essunger1994_fig2-2}_{model0_essunger1.sbml}	7	21	OK
+226	{essunger1994_fig4}_{model0_essunger2.sbml}	7	17	OK
+227	{essunger1994_fig5}_{model0_essunger3.sbml}	7	17	OK
+228	{essunger1994_fig6-user}_{model0_essunger3.sbml}	7	17	OK
+229	{essunger1994_fig6-user}_{model1_essunger3.sbml}	7	17	OK
+230	{essunger1994_fig6-user}_{model2_essunger3.sbml}	7	17	OK
+231	{essunger1994_fig8}_{model0_essunger6.sbml}	7	17	OK
+232	{fan2014_fig1a}_{model0_fan1.sbml}	2	4	"Kinetic law ""lambda"" contains an unsupported expression!"
+233	{fan2014_fig1a}_{model1_fan2.sbml}	2	5	"Kinetic law ""lambda"" contains an unsupported expression!"
+234	{fernandez2006_fig5a-user}_{model0_fernandez1.sbml}	64	120	Events are currently not supported!
+235	{fernandez2006_fig5b-user}_{model0_fernandez2.sbml}	75	152	Events are currently not supported!
+236	{ferreira2003_fig2f-user}_{ferreira1_Fig2F.sbml}	6	12	OK
+237	{fisher2006_fig3a}_{fisher1.sbml}	14	17	OK
+238	{fisher2006_fig4a-user}_{model0_fisher2.sbml}	14	17	Events are currently not supported!
+239	{fraser2002_fig1a_1b_2a_2b}_{model0_fraser1.sbml}	6	15	OK
+240	{fraser2002_fig1a_1b_2a_2b}_{model1_fraser2.sbml}	6	15	OK
+241	{fridlyand2003_fig3-user}_{model0_fridlyand1.sbml}	6	18	SBML Document failed to load (see error messages above)
+242	{friedland2009_figs5-user}_{model0_friedland1.sbml}	8	15	Events are currently not supported!
+243	{friedland2009_figs5-user}_{model1_friedland1.sbml}	8	15	Events are currently not supported!
+244	{friedland2009_figs5-user}_{model2_friedland1.sbml}	8	15	Events are currently not supported!
+245	{fuentes2005_fig1a-user}_{model0_fuentes1.sbml}	4	3	OK
+246	{fung2005_fig3a}_{fung1_Fig3A_Vgly_0_001.sbml}	8	13	OK
+247	{fung2005_fig3a}_{fung1_Fig3A_Vgly_0_01.sbml}	8	13	OK
+248	{fung2005_fig3a}_{fung1_Fig3A_Vgly_0_05.sbml}	8	13	OK
+249	{fung2005_fig3a}_{fung1_Fig3A_Vgly_0_5.sbml}	8	13	OK
+250	{gardner1998_fig4b-user}_{gardner1_Fig4B.sbml}	5	13	OK
+251	{goldbeter1990_fig2-user}_{model0_goldbeter4.sbml}	2	6	SBML Document failed to load (see error messages above)
+252	{goldbeter1991_fig3-user}_{model0_goldbeter2.sbml}	3	7	OK
+253	{goldbeter1995_fig2-user}_{model0_goldbeter5.sbml}	7	10	Species assignment rules are currently not supported!
+254	{goldbeter2006_fig3a-user}_{model0_goldbeter6.sbml}	3	6	OK
+255	{goldbeter2008_fig4-user}_{model0_goldbeter7.sbml}	26	33	SBML Document failed to load (see error messages above)
+256	{gorlich2003_fig4-user}_{model0_gorlich1.sbml}	13	9	OK
+257	{hald2012_fig5-user}_{model0_hald.sbml}	31	27	OK
+258	{hald2012_fig5-user}_{model1_hald.sbml}	31	27	OK
+259	{hatakeyama2003_fig5-user}_{hatakeyama1_Fig5G.sbml}	36	34	OK
+260	{hernandezvargas2013}_{model0_esteban2013.sbml}	5	13	OK
+261	{ho1995_fig3}_{model0_ho1.sbml}	1	1	OK
+262	{ho1995_fig3}_{model1_ho1.sbml}	1	1	OK
+263	{ho1995_fig3}_{model2_ho1.sbml}	1	1	OK
+264	{hockin1999_fig7a-user}_{model0_hockin2.sbml}	30	33	OK
+265	{hockin2002_fig3-user}_{model0_hockin1.sbml}	34	31	OK
+266	{hockin2002_fig3-user}_{model1_hockin1.sbml}	34	31	OK
+267	{hockin2002_fig3-user}_{model2_hockin1.sbml}	34	31	OK
+268	{hockin2002_fig3-user}_{model3_hockin1.sbml}	34	31	OK
+269	{hockin2002_fig3-user}_{model4_hockin1.sbml}	34	31	OK
+270	{hockin2002_fig3-user}_{model5_hockin1.sbml}	34	31	OK
+271	{hoffmann2002_fig2c-user}_{model0_hoffmann1.sbml}	24	45	Events are currently not supported!
+272	{hoffmann2002_fig2f}_{model0_hoffmann2.sbml}	24	45	Events are currently not supported!
+273	{hong2009_fig2-user}_{model0_hong1.sbml}	4	17	Events are currently not supported!
+274	{hong2009_fig2-user}_{model1_hong1.sbml}	4	17	Events are currently not supported!
+275	{hornberg2005_fig2a-user}_{model0_hornberg1.sbml}	9	8	OK
+276	{huo2013_fig2-user}_{model0_huo1.sbml}	6	16	Command '['/home/paulstapor/anaconda3/envs/PENV/bin/python', '/home/paulstapor/sbml2amici/amici_models/huo2013_fig2-user/model0_huo1/setup.py', '--quiet', 'build_ext', '--build-lib=/home/paulstapor/sbml2amici/amici_models/huo2013_fig2-user/model0_huo1']' returned non-zero exit status 1.
+277	{huo2013_fig2-user}_{model1_huo1.sbml}	6	16	Command '['/home/paulstapor/anaconda3/envs/PENV/bin/python', '/home/paulstapor/sbml2amici/amici_models/huo2013_fig2-user/model1_huo1/setup.py', '--quiet', 'build_ext', '--build-lib=/home/paulstapor/sbml2amici/amici_models/huo2013_fig2-user/model1_huo1']' returned non-zero exit status 1.
+278	{ibrahim2008_fig2b}_{model0_ibrahim4.sbml}	5	3	Events are currently not supported!
+279	{ibrahim2008_fig2b}_{model1_ibrahim4.sbml}	5	3	Events are currently not supported!
+280	{ibrahim2008_fig2b}_{model2_ibrahim4.sbml}	5	3	Events are currently not supported!
+281	{ibrahim2008_fig2b}_{model3_ibrahim4.sbml}	5	3	Events are currently not supported!
+282	{ibrahim2008_fig2b}_{model4_ibrahim4.sbml}	5	3	Events are currently not supported!
+283	{ibrahim2008_fig3a}_{ibrahim1_Fig3A.sbml}	11	9	Events are currently not supported!
+284	{ibrahim2008_fig3b}_{ibrahim2_Fig3B.sbml}	11	9	Events are currently not supported!
+285	{ibrahim2009_fig3a}_{ibrahim3_Fig3A.sbml}	8	6	Events are currently not supported!
+286	{ihekwaba2004_fig5-user}_{model0_ihekwaba1.sbml}	26	64	OK
+287	{iwami2012_fig3}_{model0_iwami1.sbml}	4	12	Command '['/home/paulstapor/anaconda3/envs/PENV/bin/python', '/home/paulstapor/sbml2amici/amici_models/iwami2012_fig3/model0_iwami1/setup.py', '--quiet', 'build_ext', '--build-lib=/home/paulstapor/sbml2amici/amici_models/iwami2012_fig3/model0_iwami1']' returned non-zero exit status 1.
+288	{iwami2012_fig3}_{model1_iwami1.sbml}	4	12	Command '['/home/paulstapor/anaconda3/envs/PENV/bin/python', '/home/paulstapor/sbml2amici/amici_models/iwami2012_fig3/model1_iwami1/setup.py', '--quiet', 'build_ext', '--build-lib=/home/paulstapor/sbml2amici/amici_models/iwami2012_fig3/model1_iwami1']' returned non-zero exit status 1.
+289	{iwami2012_fig3}_{model2_iwami1.sbml}	4	12	Command '['/home/paulstapor/anaconda3/envs/PENV/bin/python', '/home/paulstapor/sbml2amici/amici_models/iwami2012_fig3/model2_iwami1/setup.py', '--quiet', 'build_ext', '--build-lib=/home/paulstapor/sbml2amici/amici_models/iwami2012_fig3/model2_iwami1']' returned non-zero exit status 1.
+290	{iwami2012_fig3}_{model3_iwami1.sbml}	4	12	Command '['/home/paulstapor/anaconda3/envs/PENV/bin/python', '/home/paulstapor/sbml2amici/amici_models/iwami2012_fig3/model3_iwami1/setup.py', '--quiet', 'build_ext', '--build-lib=/home/paulstapor/sbml2amici/amici_models/iwami2012_fig3/model3_iwami1']' returned non-zero exit status 1.
+291	{jansen2005_fig1-user}_{model0_jansen1.sbml}	4	9	"Kinetic law ""lambda"" contains an unsupported expression!"
+292	{jansen2005_fig1-user}_{model1_jansen1.sbml}	4	9	"Kinetic law ""lambda"" contains an unsupported expression!"
+293	{jenkinson2011_fig1-user}_{model0_jenkinson1.sbml}	100	125	Species assignment rules are currently not supported!
+294	{jiang2007_fig2-user}_{model0_jiang1.sbml}	59	45	OK
+295	{jones2002_fig2}_{model0_jones1.sbml}	5	11	"Kinetic law ""lambda"" contains an unsupported expression!"
+296	{jones2002_fig2}_{model1_jones1.sbml}	5	11	"Kinetic law ""lambda"" contains an unsupported expression!"
+297	{jones2002_fig2}_{model2_jones1.sbml}	5	11	"Kinetic law ""lambda"" contains an unsupported expression!"
+298	{karin2017_fig1c}_{model0_karin1.sbml}	2	3	OK
+299	{karin2017_fig1c}_{model10_karin1.sbml}	2	3	OK
+300	{karin2017_fig1c}_{model11_karin1.sbml}	2	3	OK
+301	{karin2017_fig1c}_{model12_karin1.sbml}	2	3	OK
+302	{karin2017_fig1c}_{model13_karin1.sbml}	2	3	OK
+303	{karin2017_fig1c}_{model14_karin1.sbml}	2	3	OK
+304	{karin2017_fig1c}_{model15_karin1.sbml}	2	3	OK
+305	{karin2017_fig1c}_{model16_karin1.sbml}	2	3	OK
+306	{karin2017_fig1c}_{model17_karin1.sbml}	2	3	OK
+307	{karin2017_fig1c}_{model18_karin1.sbml}	2	3	OK
+308	{karin2017_fig1c}_{model19_karin1.sbml}	2	3	OK
+309	{karin2017_fig1c}_{model1_karin1.sbml}	2	3	OK
+310	{karin2017_fig1c}_{model20_karin1.sbml}	2	3	OK
+311	{karin2017_fig1c}_{model21_karin1.sbml}	2	3	OK
+312	{karin2017_fig1c}_{model22_karin1.sbml}	2	3	OK
+313	{karin2017_fig1c}_{model23_karin1.sbml}	2	3	OK
+314	{karin2017_fig1c}_{model24_karin1.sbml}	2	3	OK
+315	{karin2017_fig1c}_{model25_karin1.sbml}	2	3	OK
+316	{karin2017_fig1c}_{model26_karin1.sbml}	2	3	OK
+317	{karin2017_fig1c}_{model27_karin1.sbml}	2	3	OK
+318	{karin2017_fig1c}_{model28_karin1.sbml}	2	3	OK
+319	{karin2017_fig1c}_{model29_karin1.sbml}	2	3	OK
+320	{karin2017_fig1c}_{model2_karin1.sbml}	2	3	OK
+321	{karin2017_fig1c}_{model30_karin1.sbml}	2	3	OK
+322	{karin2017_fig1c}_{model3_karin1.sbml}	2	3	OK
+323	{karin2017_fig1c}_{model4_karin1.sbml}	2	3	OK
+324	{karin2017_fig1c}_{model5_karin1.sbml}	2	3	OK
+325	{karin2017_fig1c}_{model6_karin1.sbml}	2	3	OK
+326	{karin2017_fig1c}_{model7_karin1.sbml}	2	3	OK
+327	{karin2017_fig1c}_{model8_karin1.sbml}	2	3	OK
+328	{karin2017_fig1c}_{model9_karin1.sbml}	2	3	OK
+329	{karin2017_fig1d}_{model0_karin2.sbml}	3	4	Events are currently not supported!
+330	{karin2017_fig1g}_{model0_karin3.sbml}	2	2	OK
+331	{karin2017_fig1g}_{model10_karin3.sbml}	2	2	OK
+332	{karin2017_fig1g}_{model11_karin3.sbml}	2	2	OK
+333	{karin2017_fig1g}_{model12_karin3.sbml}	2	2	OK
+334	{karin2017_fig1g}_{model13_karin3.sbml}	2	2	OK
+335	{karin2017_fig1g}_{model14_karin3.sbml}	2	2	OK
+336	{karin2017_fig1g}_{model15_karin3.sbml}	2	2	OK
+337	{karin2017_fig1g}_{model16_karin3.sbml}	2	2	OK
+338	{karin2017_fig1g}_{model17_karin3.sbml}	2	2	OK
+339	{karin2017_fig1g}_{model18_karin3.sbml}	2	2	OK
+340	{karin2017_fig1g}_{model19_karin3.sbml}	2	2	OK
+341	{karin2017_fig1g}_{model1_karin3.sbml}	2	2	OK
+342	{karin2017_fig1g}_{model20_karin3.sbml}	2	2	OK
+343	{karin2017_fig1g}_{model21_karin3.sbml}	2	2	OK
+344	{karin2017_fig1g}_{model22_karin3.sbml}	2	2	OK
+345	{karin2017_fig1g}_{model23_karin3.sbml}	2	2	OK
+346	{karin2017_fig1g}_{model24_karin3.sbml}	2	2	OK
+347	{karin2017_fig1g}_{model25_karin3.sbml}	2	2	OK
+348	{karin2017_fig1g}_{model26_karin3.sbml}	2	2	OK
+349	{karin2017_fig1g}_{model27_karin3.sbml}	2	2	OK
+350	{karin2017_fig1g}_{model28_karin3.sbml}	2	2	OK
+351	{karin2017_fig1g}_{model29_karin3.sbml}	2	2	OK
+352	{karin2017_fig1g}_{model2_karin3.sbml}	2	2	OK
+353	{karin2017_fig1g}_{model3_karin3.sbml}	2	2	OK
+354	{karin2017_fig1g}_{model4_karin3.sbml}	2	2	OK
+355	{karin2017_fig1g}_{model5_karin3.sbml}	2	2	OK
+356	{karin2017_fig1g}_{model6_karin3.sbml}	2	2	OK
+357	{karin2017_fig1g}_{model7_karin3.sbml}	2	2	OK
+358	{karin2017_fig1g}_{model8_karin3.sbml}	2	2	OK
+359	{karin2017_fig1g}_{model9_karin3.sbml}	2	2	OK
+360	{karin2017_fig1h}_{model0_karin4.sbml}	3	3	Events are currently not supported!
+361	{karin2017_fig2}_{model0_karin5.sbml}	5	5	OK
+362	{karin2017_fig4c}_{model0_karin6.sbml}	3	3	Events are currently not supported!
+363	{karin2017_fig4e}_{model0_karin7.sbml}	3	3	Events are currently not supported!
+364	{keizer1996_fig2-user}_{model0_keizer1.sbml}	4	3	SBML Document failed to load (see error messages above)
+365	{keizer1996_fig2-user}_{model1_keizer1.sbml}	4	3	SBML Document failed to load (see error messages above)
+366	{kholodenko1999_fig4b-user}_{model0_kholodenko1.sbml}	23	25	OK
+367	{kholodenko2000_fig2a-user}_{model0_kholodenko2.sbml}	8	10	OK
+368	{kim2007_fig3g-user}_{model0_kim3.sbml}	7	17	"Sympify of expression 'could not parse 'piecewise(1, (time >= 50) && (time <= 100), 0)'' failed, because of exception being raised:
+SyntaxError: invalid syntax (<string>, line 1)"
+369	{kim2007_fig3h-user}_{model0_kim4.sbml}	8	20	"Sympify of expression 'could not parse 'piecewise(1, (time >= 50) && (time <= 100), 0)'' failed, because of exception being raised:
+SyntaxError: invalid syntax (<string>, line 1)"
+370	{kim2007_fig6-user}_{model0_kim2.sbml}	28	33	Events are currently not supported!
+371	{kim2007_fig6-user}_{model1_kim2.sbml}	28	33	Events are currently not supported!
+372	{kim2007_fig6-user}_{model2_kim2.sbml}	28	33	Events are currently not supported!
+373	{kim2007_fig6-user}_{model3_kim2.sbml}	28	33	Events are currently not supported!
+374	{kim2011_figs5-user}_{model0_kim5.sbml}	4	9	OK
+375	{kirschner1998_fig2-user}_{model0_kirschner.sbml}	2	6	OK
+376	{klipp2002_fig1-user}_{klipp1_Fig1.sbml}	6	2	Events are currently not supported!
+377	{kofahl2004_fig3-user}_{model0_kofahl.sbml}	37	47	OK
+378	{kolodkin2010_figure2b}_{kolodkin1.sbml}	3	2	OK
+379	{kolodkin2010_figure2b}_{kolodkin2.sbml}	6	3	OK
+380	{kolodkin2010_figure2b}_{kolodkin3.sbml}	10	7	OK
+381	{kolodkin2010_figure2b}_{kolodkin4.sbml}	8	6	OK
+382	{kolodkin2010_figure2b}_{kolodkin5.sbml}	8	6	OK
+383	{kolodkin2010_figure2b}_{kolodkin6.sbml}	8	6	OK
+384	{komarova2005_fig2}_{model1_komarova2_0.sbml}	5	7	Events are currently not supported!
+385	{komarova2005_fig2}_{model1_komarova2_1.sbml}	5	7	Events are currently not supported!
+386	{komarova2005_fig2}_{model2_komarova2.sbml}	5	7	Events are currently not supported!
+387	{komarova2005_fig2}_{model3_komarova2.sbml}	5	7	Events are currently not supported!
+388	{kouril2017_fig1a}_{model1_kouril4.sbml}	6	2	OK
+389	{kouril2017_fig2b}_{model0_kouril5.sbml}	2	1	OK
+390	{kouril2017_fig3b}_{model0_kouril6.sbml}	7	3	OK
+391	{kouril2017_fig3c}_{model0_kouril6.sbml}	7	3	OK
+392	{kouril2017_fig3d}_{model0_kouril6.sbml}	7	3	OK
+393	{kouril2017_fig4b}_{model0_kouril7.sbml}	11	4	OK
+394	{kouril2017_fig4c}_{model0_kouril8.sbml}	13	6	OK
+395	{kouril2017_figs3b}_{model0_kouril6.sbml}	7	3	OK
+396	{kouril3_experiment-user}_{model0_kouril3.sbml}	13	9	Command '['/home/paulstapor/anaconda3/envs/PENV/bin/python', '/home/paulstapor/sbml2amici/amici_models/kouril3_experiment-user/model0_kouril3/setup.py', '--quiet', 'build_ext', '--build-lib=/home/paulstapor/sbml2amici/amici_models/kouril3_experiment-user/model0_kouril3']' returned non-zero exit status 1.
+397	{kowald2006_fig2-user}_{model0_kowald1.sbml}	9	17	OK
+398	{kuhn2009_fig5-user}_{model0_kuhn1.sbml}	622	778	Events are currently not supported!
+399	{kummer2000_fig7-user}_{model0_kummer1.sbml}	3	8	OK
+400	{landi2008_fig2-user}_{model0_landi1.sbml}	6	14	"Kinetic law ""lambda"" contains an unsupported expression!"
+401	{laub1998_fig3top-user}_{model0_laub1.sbml}	7	14	OK
+402	{lavrentovich2008_fig3-user}_{model0_lavrentovich1.sbml}	3	7	SBML Document failed to load (see error messages above)
+403	{lebeda2008_fig1-user}_{lebeda1_Fig1.sbml}	6	4	Species assignment rules are currently not supported!
+404	{lebeda2008_fig1-user-2}_{model0_lebeda2.sbml}	4	3	OK
+405	{lebeda2008_fig4-user}_{lebeda1_Fig4.sbml}	6	4	Species assignment rules are currently not supported!
+406	{lee2010_fig3-user}_{model0_lee4.sbml}	14	16	OK
+407	{lee2010_figs6-user}_{model0_lee2.sbml}	9	8	OK
+408	{lee2010_figs9-user}_{model0_lee3.sbml}	4	4	OK
+409	{legewie2006_fig2a-user}_{legewie1_Fig2A.sbml}	13	28	SBML Document failed to load (see error messages above)
+410	{leloup1998_fig4d-user}_{model0_leloup6.sbml}	12	26	"Encountered unsupported expression ""ceil"" of type ""<class 'sympy.core.function.UndefinedFunction'>"" as part of a Rule: ""ceil(0.9*sin(pi*time/l_d))""!"
+411	{leloup1999_fig2a}_{leloup1_Fig2A.sbml}	10	24	OK
+412	{leloup2003_fig2a}_{leloup2_Fig2A.sbml}	16	48	OK
+413	{leloup2003_fig2c-user}_{model0_leloup4.sbml}	16	48	"Encountered unsupported expression ""ceil"" of type ""<class 'sympy.core.function.UndefinedFunction'>"" as part of a Rule: ""ceil(sin(pi*time/12 + 0.001)/2)""!"
+414	{leloup2003_fig8a-user}_{model0_leloup3.sbml}	19	57	OK
+415	{leloup2003_fig8b-user}_{model0_leloup5.sbml}	19	57	"Encountered unsupported expression ""ceil"" of type ""<class 'sympy.core.function.UndefinedFunction'>"" as part of a Rule: ""ceil(sin(pi*time/12 + 0.001)/2)""!"
+416	{levchenko2000_fig2-user}_{model0_levchenko2.sbml}	31	54	OK
+417	{levchenko2000_fig2-user}_{model1_levchenko2.sbml}	31	54	OK
+418	{levchenko2000_fig2-user}_{model2_levchenko2.sbml}	31	54	OK
+419	{levchenko2000_fig2-user}_{model3_levchenko2.sbml}	31	54	OK
+420	{levchenko2000_fig2-user}_{model4_levchenko2.sbml}	31	54	OK
+421	{levchenko2000_fig2-user}_{model5_levchenko2.sbml}	31	54	OK
+422	{levchenko2000_fig2-user}_{model6_levchenko1.sbml}	22	30	OK
+423	{levering2012_fig2-user}_{model0_levering1.sbml}	15	11	OK
+424	{levering2012_fig2-user}_{model1_levering1.sbml}	15	11	OK
+425	{levering2012_fig5-user}_{model0_levering2.sbml}	25	21	OK
+426	{levering2012_fig5-user}_{model1_levering2.sbml}	25	21	OK
+427	{levering2012_fig5-user}_{model2_levering2.sbml}	25	21	OK
+428	{levering2012_fig5-user}_{model3_levering2.sbml}	25	21	OK
+429	{li2014_fig3-user}_{model0_li1.sbml}	3	11	OK
+430	{liu2011_fig5a-user}_{model0_liu2.sbml}	42	45	OK
+431	{liu2011_fig5a-user}_{model1_liu2.sbml}	42	45	OK
+432	{liu2011_fig5a-user}_{model2_liu2.sbml}	42	45	OK
+433	{locke2005_fig5aandb-user}_{model0_locke1.sbml}	13	32	"Encountered unsupported expression ""ceil"" of type ""<class 'sympy.core.function.UndefinedFunction'>"" as part of a KineticLaw: ""ceil(sin(0.001 + pi*time/dayLength)/2)""!"
+434	{lou2009_fig2-user}_{lou1.sbml}	6	12	OK
+435	{ma2002_fig2-user}_{model0_ma.sbml}	7	14	OK
+436	{maeda2006_fig2-user}_{model0_maeda1.sbml}	105	110	SBML Document failed to load (see error messages above)
+437	{maher2003_fig2}_{model0_maher1.sbml}	49	48	"Kinetic law ""(aslAdj * k1e3 * k3e3 * k5e3 * asR * e30 / (k5e3 * (k2e3 + k3e3) + (as + asR) * k1e3 * (k3e3 + k5e3) + fum * k2e3 * k4e3 + (arg + argR + fm * argQ) * k6e3 * (k2e3 + k3e3) + fum * (arg + argR + fm * argQ) * k4e3 * k6e3 + (as + asR + fm * argQ) * fum * k1e3 * k4e3)) * cytV - (aslAdj * k2e3 * k4e3 * k6e3 * fum * argR * e30 / (k5e3 * (k2e3 + k3e3) + (as + asR) * k1e3 * (k3e3 + k5e3) + fum * k2e3 * k4e3 + (arg + argR + fm * argQ) * k6e3 * (k2e3 + k3e3) + fum * (arg + argR + fm * argQ) * k4e3 * k6e3 + (as + asR + fm * argQ) * fum * k1e3 * k4e3)) * cytV"" contains an unsupported expression!"
+438	{maher2003_fig2}_{model1_maher1.sbml}	49	48	"Kinetic law ""(aslAdj * k1e3 * k3e3 * k5e3 * asR * e30 / (k5e3 * (k2e3 + k3e3) + (as + asR) * k1e3 * (k3e3 + k5e3) + fum * k2e3 * k4e3 + (arg + argR + fm * argQ) * k6e3 * (k2e3 + k3e3) + fum * (arg + argR + fm * argQ) * k4e3 * k6e3 + (as + asR + fm * argQ) * fum * k1e3 * k4e3)) * cytV - (aslAdj * k2e3 * k4e3 * k6e3 * fum * argR * e30 / (k5e3 * (k2e3 + k3e3) + (as + asR) * k1e3 * (k3e3 + k5e3) + fum * k2e3 * k4e3 + (arg + argR + fm * argQ) * k6e3 * (k2e3 + k3e3) + fum * (arg + argR + fm * argQ) * k4e3 * k6e3 + (as + asR + fm * argQ) * fum * k1e3 * k4e3)) * cytV"" contains an unsupported expression!"
+439	{marhl2000_fig2-user}_{model0_marhl.sbml}	5	7	OK
+440	{martins2003_fig6-user}_{model0_martins1.sbml}	14	16	OK
+441	{martins2016_fig4b}_{model0_sigcpsba.sbml}	5	9	Species assignment rules are currently not supported!
+442	{martins2016_fig6}_{model0_sigcpsba.sbml}	5	9	Species assignment rules are currently not supported!
+443	{martins2016_fig6}_{model1_sigcpsba.sbml}	5	9	Species assignment rules are currently not supported!
+444	{martins2016_fig6}_{model2_sigcpsba.sbml}	5	9	Species assignment rules are currently not supported!
+445	{martins2016_fig6}_{model3_sigcpsba.sbml}	5	9	Species assignment rules are currently not supported!
+446	{martins2016_figev3a}_{model0sigcpsba.sbml}	5	9	Species assignment rules are currently not supported!
+447	{martins2016_figev3a}_{model1sigcpsba.sbml}	5	9	Species assignment rules are currently not supported!
+448	{marwan2003_fig5b-user}_{model0_BIOMD0000000037.sbml}	12	12	OK
+449	{mayya2005_fig2-user}_{model0_mayya1.sbml}	9	7	"Sympify of expression 'could not parse 'piecewise(0.01 * sin(0.001571 * (-500 + t)), (t > 500) && (t < 2502.54614894971), 0)'' failed, because of exception being raised:
+SyntaxError: invalid syntax (<string>, line 1)"
+450	{mcauley2012_fig1b-user}_{model0_mcauley1.sbml}	34	35	OK
+451	{mcauley2012_fig1b-user}_{model1_mcauley1.sbml}	34	35	OK
+452	{mcauley2012_fig1b-user}_{model2_mcauley1.sbml}	34	35	OK
+453	{mcauley2012_fig1b-user}_{model3_mcauley1.sbml}	34	35	OK
+454	{mcauley2012_fig1b-user}_{model4_mcauley1.sbml}	34	35	OK
+455	{mcauley2012_fig1b-user}_{model5_mcauley1.sbml}	34	35	OK
+456	{mellor2012_fig3a-user}_{model0_mellor1.sbml}	10	5	OK
+457	{mellor2012_fig3a-user}_{model1_mellor1.sbml}	10	5	OK
+458	{mellor2012_fig3a-user}_{model2_mellor1.sbml}	10	5	OK
+459	{mellor2012_fig3a-user}_{model3_mellor1.sbml}	10	5	OK
+460	{mellor2012_fig3a-user}_{model4_mellor1.sbml}	10	5	OK
+461	{miao2008_fig1}_{model0_miao2008.sbml}	4	9	OK
+462	{middleton2012_fig4c-user}_{model0_middleton1.sbml}	37	43	Events are currently not supported!
+463	{montagne2011_fig2b-user}_{model0_montagne1.sbml}	20	27	OK
+464	{montanez2008_fig3a-user}_{model0_montanez1.sbml}	3	5	OK
+465	{moriya2011_fig7c-user}_{model0_moriya1.sbml}	49	51	OK
+466	{morris2002_fig1b-user}_{model0_Morris2002_CellCycle_CDK2Cyclin.sbml}	4	2	OK
+467	{muraro2011_fig7-user}_{model0_muraro1.sbml}	32	20	Species assignment rules are currently not supported!
+468	{muraro2011_fig7-user}_{model1_muraro1.sbml}	32	20	Species assignment rules are currently not supported!
+469	{nakakuki2010_fig1-user}_{model0_nakakuki1.sbml}	49	78	OK
+470	{nakakuki2010_fig1-user}_{model1_nakakuki1.sbml}	49	78	OK
+471	{nakakuki2010_fig4-user}_{model0_nakakuki2.sbml}	10	9	Species assignment rules are currently not supported!
+472	{naresh2005_fig2to3-user}_{model0_naresh1.sbml}	5	12	"Kinetic law ""lambda * I1"" contains an unsupported expression!"
+473	{naresh2005_fig2to3-user}_{model1_naresh1.sbml}	5	12	"Kinetic law ""lambda * I1"" contains an unsupported expression!"
+474	{naresh2011_fig11to13-user}_{model0_naresh2.sbml}	5	13	OK
+475	{naresh2011_fig11to13-user}_{model1_naresh2.sbml}	5	13	OK
+476	{naresh2011_fig11to13-user}_{model2_naresh2.sbml}	5	13	OK
+477	{naresh2011_fig11to13-user}_{model3_naresh2.sbml}	5	13	OK
+478	{naresh2011_fig6to7-user}_{model0_naresh2.sbml}	5	13	OK
+479	{naresh2011_fig6to7-user}_{model1_naresh2.sbml}	5	13	OK
+480	{naresh2011_fig8to10-user}_{model0_naresh2.sbml}	5	13	OK
+481	{naresh2011_fig8to10-user}_{model1_naresh2.sbml}	5	13	OK
+482	{naresh2011_fig8to10-user}_{model2_naresh2.sbml}	5	13	OK
+483	{neumann2010_fig5d-user}_{model0_neumann1.sbml}	23	23	OK
+484	{neumann2010_fig5d-user}_{model1_neumann1.sbml}	23	23	OK
+485	{neumann2010_fig5d-user}_{model2_neumann1.sbml}	23	23	OK
+486	{neves2008_figs1-user}_{model0_neves1.sbml}	37	32	OK
+487	{nielsen1998_fig9-user}_{model0_nielsen.sbml}	20	29	OK
+488	{nielsen1998_fig9-user}_{model1_nielsen.sbml}	20	29	OK
+489	{nielsen1998_fig9-user}_{model2_nielsen.sbml}	20	29	OK
+490	{nielsen1998_fig9-user}_{model3_nielsen.sbml}	20	29	OK
+491	{novak1993_fig9-user}_{model0_novak1.sbml}	14	23	Species assignment rules are currently not supported!
+492	{nyabadza2013_fig1b-user}_{model0_nyabadza1.sbml}	5	20	"Kinetic law ""c * (1 - p_1) * lambda * S"" contains an unsupported expression!"
+493	{nyman2012_fig5-user}_{model0_nyman3.sbml}	9	11	OK
+494	{obeyesekere1999_fig3a-user}_{model0_obeyesekere1.sbml}	7	10	Species assignment rules are currently not supported!
+495	{obeyesekere1999_fig3a-user}_{model1_obeyesekere1.sbml}	7	10	Species assignment rules are currently not supported!
+496	{odea2007_fig3-user}_{model0_odea1.sbml}	24	51	OK
+497	{olsen2003_fig7b-user}_{model0_olsen.sbml}	16	15	OK
+498	{orfao2008_fig2-user}_{model0_orfao1.sbml}	12	8	OK
+499	{orfao2008_fig2-user}_{model1_orfao1.sbml}	12	8	OK
+500	{orfao2008_fig2-user}_{model2_orfao1.sbml}	12	8	OK
+501	{ouattara2008_fig3}_{model0_ouattara1.sbml}	3	6	OK
+502	{pankavich2016_fig1}_{model0_pankavich2016_fig1.sbml}	3	6	"Kinetic law ""lambda"" contains an unsupported expression!"
+503	{pankavich2016_fig2}_{model0_pankavich2.sbml}	4	9	"Kinetic law ""lambda"" contains an unsupported expression!"
+504	{panteleev2002_fig1-user}_{model0_panteleev3.sbml}	8	5	OK
+505	{panteleev2002_fig1-user}_{model1_panteleev3.sbml}	8	5	OK
+506	{panteleev2002_fig1-user}_{model2_panteleev3.sbml}	8	5	OK
+507	{panteleev2002_fig1-user}_{model3_panteleev3.sbml}	8	5	OK
+508	{panteleev2002_fig1-user}_{model4_panteleev3.sbml}	8	5	OK
+509	{panteleev2002_fig1-user}_{model5_panteleev3.sbml}	8	5	OK
+510	{panteleev2002_fig1-user}_{model6_panteleev3.sbml}	8	5	OK
+511	{panteleev2002_fig1-user}_{model7_panteleev3.sbml}	8	5	OK
+512	{panteleev2002_fig1-user}_{model8_panteleev3.sbml}	8	5	OK
+513	{panteleev2002_fig1-user}_{model9_panteleev3.sbml}	8	5	OK
+514	{panteleev2002_fig2a-user}_{model0_panteleev2.sbml}	9	8	OK
+515	{panteleev2002_fig2a-user}_{model1_panteleev2.sbml}	9	8	OK
+516	{panteleev2002_fig2a-user}_{model2_panteleev2.sbml}	9	8	OK
+517	{panteleev2002_fig2a-user}_{model3_panteleev2.sbml}	9	8	OK
+518	{panteleev2002_fig2a-user}_{model4_panteleev2.sbml}	9	8	OK
+519	{panteleev2002_fig2a-user}_{model5_panteleev2.sbml}	9	8	OK
+520	{panteleev2002_fig2a-user}_{model6_panteleev2.sbml}	9	8	OK
+521	{panteleev2002_fig2a-user}_{model7_panteleev2.sbml}	9	8	OK
+522	{panteleev2002_fig3a-user}_{model0_panteleev1.sbml}	9	8	OK
+523	{panteleev2002_fig3a-user}_{model1_panteleev1.sbml}	9	8	OK
+524	{panteleev2002_fig3a-user}_{model2_panteleev1.sbml}	9	8	OK
+525	{panteleev2002_fig3a-user}_{model3_panteleev1.sbml}	9	8	OK
+526	{panteleev2002_fig3a-user}_{model4_panteleev1.sbml}	9	8	OK
+527	{panteleev2002_fig3a-user}_{model5_panteleev1.sbml}	9	8	OK
+528	{panteleev2002_fig3a-user}_{model6_panteleev1.sbml}	9	8	OK
+529	{panteleev2002_fig3a-user}_{model7_panteleev1.sbml}	9	8	OK
+530	{passos2010_fig3b-user}_{model0_passos1.sbml}	23	37	Events are currently not supported!
+531	{passos2010_figs17-user}_{model0_passos1.sbml}	23	37	Events are currently not supported!
+532	{penkler2aa_experiment-user}_{model0_penkler2aa.sbml}	21	17	Command '['/home/paulstapor/anaconda3/envs/PENV/bin/python', '/home/paulstapor/sbml2amici/amici_models/penkler2aa_experiment-user/model0_penkler2aa/setup.py', '--quiet', 'build_ext', '--build-lib=/home/paulstapor/sbml2amici/amici_models/penkler2aa_experiment-user/model0_penkler2aa']' returned non-zero exit status 1.
+533	{perelson1993_fig11-user}_{model0_perelson3.sbml}	5	9	OK
+534	{perelson1993_fig11-user}_{model1_perelson3.sbml}	5	9	OK
+535	{perelson1993_fig11-user}_{model2_perelson3.sbml}	5	9	OK
+536	{perelson1993_fig2and3-user}_{model0_perelson2.sbml}	5	9	OK
+537	{perelson1993_fig2and3-user}_{model1_perelson2.sbml}	5	9	OK
+538	{perelson1993_fig2and3-user}_{model2_perelson2.sbml}	5	9	OK
+539	{perelson1993_fig2and3-user}_{model3_perelson2.sbml}	5	9	OK
+540	{perelson1993_fig8-user}_{model0_perelson2.sbml}	5	9	OK
+541	{perelson1996_fig1a-user}_{model0_perelson1.sbml}	4	5	OK
+542	{perelson1996_fig1a-user}_{model1_perelson1.sbml}	4	5	OK
+543	{perelson1996_fig1b_top}_{model0_perelson1.sbml}	4	5	OK
+544	{pfeiffer2001_figs2-user}_{model0_pfeiffer1.sbml}	3	5	Events are currently not supported!
+545	{piedrafita2010_fig2-user}_{model0_piedrafita1.sbml}	11	11	OK
+546	{piedrafita2010_fig2-user}_{model1_piedrafita1.sbml}	11	11	OK
+547	{queralt2006_fig7b-user}_{model0_queralt1.sbml}	24	31	Species assignment rules are currently not supported!
+548	{raia2010_fig5b-user}_{model0_raia1.sbml}	16	16	Species assignment rules are currently not supported!
+549	{raia2010_fig5b-user}_{model1_raia1.sbml}	16	16	Species assignment rules are currently not supported!
+550	{raia2010_fig5b-user}_{model2_raia1.sbml}	16	16	Species assignment rules are currently not supported!
+551	{raia2010_figs27a-user}_{model0_raia2.sbml}	12	12	Species assignment rules are currently not supported!
+552	{raia2010_figs27a-user}_{model1_raia2.sbml}	12	12	Species assignment rules are currently not supported!
+553	{raia2010_figs27a-user}_{model2_raia2.sbml}	12	12	Species assignment rules are currently not supported!
+554	{ratushny2012_fig2f-user}_{model0_ratushny1.sbml}	1	2	Command '['/home/paulstapor/anaconda3/envs/PENV/bin/python', '/home/paulstapor/sbml2amici/amici_models/ratushny2012_fig2f-user/model0_ratushny1/setup.py', '--quiet', 'build_ext', '--build-lib=/home/paulstapor/sbml2amici/amici_models/ratushny2012_fig2f-user/model0_ratushny1']' returned non-zero exit status 1.
+555	{ratushny2012_fig2f_assure1-user}_{model0_ratushny4.sbml}	2	4	Command '['/home/paulstapor/anaconda3/envs/PENV/bin/python', '/home/paulstapor/sbml2amici/amici_models/ratushny2012_fig2f_assure1-user/model0_ratushny4/setup.py', '--quiet', 'build_ext', '--build-lib=/home/paulstapor/sbml2amici/amici_models/ratushny2012_fig2f_assure1-user/model0_ratushny4']' returned non-zero exit status 1.
+556	{ratushny2012_fig2f_assure11-user}_{model0_ratushny5.sbml}	2	4	Command '['/home/paulstapor/anaconda3/envs/PENV/bin/python', '/home/paulstapor/sbml2amici/amici_models/ratushny2012_fig2f_assure11-user/model0_ratushny5/setup.py', '--quiet', 'build_ext', '--build-lib=/home/paulstapor/sbml2amici/amici_models/ratushny2012_fig2f_assure11-user/model0_ratushny5']' returned non-zero exit status 1.
+557	{ratushny2012_fig2f_spf-user}_{model0_ratushny2.sbml}	1	2	Command '['/home/paulstapor/anaconda3/envs/PENV/bin/python', '/home/paulstapor/sbml2amici/amici_models/ratushny2012_fig2f_spf-user/model0_ratushny2/setup.py', '--quiet', 'build_ext', '--build-lib=/home/paulstapor/sbml2amici/amici_models/ratushny2012_fig2f_spf-user/model0_ratushny2']' returned non-zero exit status 1.
+558	{ratushny2012_fig2f_spf1-user}_{model0_ratushny3.sbml}	3	6	Command '['/home/paulstapor/anaconda3/envs/PENV/bin/python', '/home/paulstapor/sbml2amici/amici_models/ratushny2012_fig2f_spf1-user/model0_ratushny3/setup.py', '--quiet', 'build_ext', '--build-lib=/home/paulstapor/sbml2amici/amici_models/ratushny2012_fig2f_spf1-user/model0_ratushny3']' returned non-zero exit status 1.
+559	{rehm2006_fig2d-user}_{model0_rehm1.sbml}	27	56	Events are currently not supported!
+560	{revilla2003_fig2a-user}_{model0_revilla1.sbml}	3	6	"Kinetic law ""lambda"" contains an unsupported expression!"
+561	{revilla2003_fig2bandc-user}_{model0_revilla2.sbml}	5	10	"Kinetic law ""lambda"" contains an unsupported expression!"
+562	{revilla2003_fig2bandc-user}_{model1_revilla2.sbml}	5	10	"Kinetic law ""lambda"" contains an unsupported expression!"
+563	{ribeiro2008_fig4-user}_{model0_ribeiro1.sbml}	2	5	OK
+564	{ribeiro2008_fig4-user}_{model1_ribeiro1.sbml}	2	5	OK
+565	{ribeiro2008_fig4-user}_{model2_ribeiro1.sbml}	2	5	OK
+566	{romond1999_fig3-user}_{model0_romond1.sbml}	6	6	SBML Document failed to load (see error messages above)
+567	{rong2007a_fig2aandb-user}_{model0_rong1.sbml}	4	9	"Kinetic law ""lambda"" contains an unsupported expression!"
+568	{rong2007a_fig2aandb-user}_{model1_rong1.sbml}	4	9	"Kinetic law ""lambda"" contains an unsupported expression!"
+569	{rong2007a_fig2aandb-user}_{model2_rong1.sbml}	4	9	"Kinetic law ""lambda"" contains an unsupported expression!"
+570	{rong2007a_fig2aandb-user}_{model3_rong1.sbml}	4	9	"Kinetic law ""lambda"" contains an unsupported expression!"
+571	{rong2007b_fig1-user}_{model0_rong2.sbml}	5	11	"Kinetic law ""lambda"" contains an unsupported expression!"
+572	{rong2008_fig2-user}_{model0_rong2009b_fig2.sbml}	6	13	"Kinetic law ""lambda"" contains an unsupported expression!"
+573	{rovers1995_fig2-user}_{model0_rovers1.sbml}	6	4	Species assignment rules are currently not supported!
+574	{roy2010_fig2-user}_{model0_roy1.sbml}	3	9	"Kinetic law ""lambda"" contains an unsupported expression!"
+575	{roy2010_fig2-user}_{model1_roy1.sbml}	3	9	"Kinetic law ""lambda"" contains an unsupported expression!"
+576	{roy2010_fig2-user}_{model2_roy1.sbml}	3	9	"Kinetic law ""lambda"" contains an unsupported expression!"
+577	{roy2010_fig2-user}_{model3_roy1.sbml}	3	9	"Kinetic law ""lambda"" contains an unsupported expression!"
+578	{roy2010_fig3}_{model0_roy2010.sbml}	3	9	"Kinetic law ""lambda"" contains an unsupported expression!"
+579	{roy2010_fig3}_{model1_roy2010.sbml}	3	9	"Kinetic law ""lambda"" contains an unsupported expression!"
+580	{roy2010_fig3}_{model2_roy2010.sbml}	3	9	"Kinetic law ""lambda"" contains an unsupported expression!"
+581	{roy2010_fig3}_{model3_roy2010.sbml}	3	9	"Kinetic law ""lambda"" contains an unsupported expression!"
+582	{saeidi2012_fig4a-user}_{model0_saeidi1.sbml}	10	7	OK
+583	{saeidi2012_fig4a-user}_{model1_saeidi1.sbml}	10	7	OK
+584	{saeidi2012_fig4a-user}_{model2_saeidi1.sbml}	10	7	OK
+585	{sarma2012_fig3c-user}_{model0_sarma5.sbml}	11	10	OK
+586	{sarma2012_fig3f-user}_{model0_sarma6.sbml}	11	10	OK
+587	{sarma2012_fig5a-user}_{model0_sarma1.sbml}	27	28	OK
+588	{sarma2012_fig5a-user}_{model1_sarma1.sbml}	27	28	OK
+589	{sarma2012_fig5a-user}_{model2_sarma1.sbml}	27	28	OK
+590	{sarma2012_fig5atod-user}_{model0_sarma7.sbml}	13	12	OK
+591	{sarma2012_fig5atod-user}_{model1_sarma7.sbml}	13	12	OK
+592	{sarma2012_fig5atod-user}_{model2_sarma7.sbml}	13	12	OK
+593	{sarma2012_fig5atod-user}_{model3_sarma7.sbml}	13	12	OK
+594	{sarma2012_fig5b-user}_{model0_sarma2.sbml}	27	28	OK
+595	{sarma2012_fig5b-user}_{model1_sarma2.sbml}	27	28	OK
+596	{sarma2012_fig5c-user}_{model0_sarma3.sbml}	11	10	OK
+597	{sarma2012_fig5c-user}_{model1_sarma3.sbml}	11	10	OK
+598	{sarma2012_fig5d-user}_{model0_sarma4.sbml}	11	10	OK
+599	{sarma2012_fig5d-user}_{model1_sarma4.sbml}	11	10	OK
+600	{sarma2012_fig7a-user}_{model0_sarma8.sbml}	19	22	OK
+601	{sarma2012_fig8a-user}_{model0_sarma9.sbml}	18	22	OK
+602	{schaber2006_fig4-user}_{model0_schaber1.sbml}	26	31	"Sympify of expression 'could not parse 'betastim * betaA * piecewise(1 - exp(-(time - betat) / betas), (time >= betat) && (time <= betae), piecewise(exp(-(time - betae) / betas), time > betae, 0))'' failed, because of exception being raised:
+SyntaxError: invalid syntax (<string>, line 1)"
+603	{schaber2006_fig4-user}_{model1_schaber1.sbml}	26	31	"Sympify of expression 'could not parse 'betastim * betaA * piecewise(1 - exp(-(time - betat) / betas), (time >= betat) && (time <= betae), piecewise(exp(-(time - betae) / betas), time > betae, 0))'' failed, because of exception being raised:
+SyntaxError: invalid syntax (<string>, line 1)"
+604	{schaber2006_fig4-user}_{model2_schaber1.sbml}	26	31	"Sympify of expression 'could not parse 'betastim * betaA * piecewise(1 - exp(-(time - betat) / betas), (time >= betat) && (time <= betae), piecewise(exp(-(time - betae) / betas), time > betae, 0))'' failed, because of exception being raised:
+SyntaxError: invalid syntax (<string>, line 1)"
+605	{schilling2009_fig1b-user}_{model0_schilling1.sbml}	33	42	OK
+606	{schliemann2011_fig3a-user}_{model0_schliemann1.sbml}	47	88	OK
+607	{schliemann2011_fig3a-user}_{model1_schliemann1.sbml}	47	88	OK
+608	{schliemann2011_fig3a-user}_{model2_schliemann1.sbml}	47	88	OK
+609	{schliemann2011_fig3a-user}_{model3_schliemann1.sbml}	47	88	OK
+610	{schoeberl2002_fig2-user}_{model0_schoeberl1.sbml}	100	125	Species assignment rules are currently not supported!
+611	{schoeberl2002_fig2-user}_{model1_schoeberl1.sbml}	100	125	Species assignment rules are currently not supported!
+612	{schoeberl2002_fig2-user}_{model2_schoeberl1.sbml}	100	125	Species assignment rules are currently not supported!
+613	{sedaghat2008_fig4-user}_{model0_sedaghat1.sbml}	3	8	"Kinetic law ""lambda"" contains an unsupported expression!"
+614	{sedaghat2008_fig4-user}_{model1_sedaghat1.sbml}	3	8	"Kinetic law ""lambda"" contains an unsupported expression!"
+615	{sedaghat2008_fig4-user}_{model2_sedaghat1.sbml}	3	8	"Kinetic law ""lambda"" contains an unsupported expression!"
+616	{sedaghat2008_fig4-user}_{model3_sedaghat1.sbml}	3	8	"Kinetic law ""lambda"" contains an unsupported expression!"
+617	{sedaghat2008_fig4-user}_{model4_sedaghat1.sbml}	3	8	"Kinetic law ""lambda"" contains an unsupported expression!"
+618	{sedaghat2008_fig4-user}_{model5_sedaghat1.sbml}	3	8	"Kinetic law ""lambda"" contains an unsupported expression!"
+619	{sedaghat2008_fig4-user}_{model6_sedaghat1.sbml}	3	8	"Kinetic law ""lambda"" contains an unsupported expression!"
+620	{shenorr2002_fig2a-user}_{model0_shenorr1.sbml}	3	4	Events are currently not supported!
+621	{shu2014_fig3-user}_{model0_shu1.sbml}	4	11	"Kinetic law ""lambda"" contains an unsupported expression!"
+622	{shu2014_fig3-user}_{model1_shu1.sbml}	4	11	"Kinetic law ""lambda"" contains an unsupported expression!"
+623	{shu2014_fig3-user}_{model2_shu1.sbml}	4	11	"Kinetic law ""lambda"" contains an unsupported expression!"
+624	{shu2014_fig3-user}_{model3_shu1.sbml}	4	11	"Kinetic law ""lambda"" contains an unsupported expression!"
+625	{speirs2005_fig4-user}_{model0_speirs1.sbml}	4	7	"Kinetic law ""lambda * x"" contains an unsupported expression!"
+626	{srimani2017_fig2cii}_{model0_srimani1.sbml}	5	9	"Kinetic law ""kin * piecewise(a0, aStart < time < (aStart + d), 0)"" contains an unsupported expression!"
+627	{srimani2017_fig2cii}_{model1_srimani1.sbml}	5	9	"Kinetic law ""kin * piecewise(a0, aStart < time < (aStart + d), 0)"" contains an unsupported expression!"
+628	{srimani2017_fig2cii}_{model2_srimani1.sbml}	5	9	"Kinetic law ""kin * piecewise(a0, aStart < time < (aStart + d), 0)"" contains an unsupported expression!"
+629	{srimani2017_fig2cii}_{model3_srimani1.sbml}	5	9	"Kinetic law ""kin * piecewise(a0, aStart < time < (aStart + d), 0)"" contains an unsupported expression!"
+630	{srimani2017_fig2cii}_{model4_srimani1.sbml}	5	9	"Kinetic law ""kin * piecewise(a0, aStart < time < (aStart + d), 0)"" contains an unsupported expression!"
+631	{srimani2017_fig2cii}_{model5_srimani1.sbml}	5	9	"Kinetic law ""kin * piecewise(a0, aStart < time < (aStart + d), 0)"" contains an unsupported expression!"
+632	{srivastava2012_fig2-user}_{model0_srivastava1.sbml}	6	12	Species assignment rules are currently not supported!
+633	{srivastava2012_fig2-user}_{model1_srivastava1.sbml}	6	12	Species assignment rules are currently not supported!
+634	{srivastava2012_fig2-user}_{model2_srivastava1.sbml}	6	12	Species assignment rules are currently not supported!
+635	{srivastava2012_fig3and4-user}_{model0_srivastava2.sbml}	14	25	Species assignment rules are currently not supported!
+636	{srivastava2012_fig3and4-user}_{model1_srivastava2.sbml}	14	25	Species assignment rules are currently not supported!
+637	{stafford2000_fig2}_{model0_stafford1.sbml}	3	6	"Kinetic law ""lambda"" contains an unsupported expression!"
+638	{strasen2018_fig4ctoh}_{model0_strasen1.sbml}	23	65	OK
+639	{strasen2018_fig4ctoh}_{model1_strasen1.sbml}	23	65	OK
+640	{strasen2018_fig4ctoh}_{model2_strasen1.sbml}	23	65	OK
+641	{strasen2018_fig4ctoh}_{model3_strasen1.sbml}	23	65	OK
+642	{strasen2018_fig4ctoh}_{model4_strasen1.sbml}	23	65	OK
+643	{strasen2018_fig4ctoh}_{model5_strasen2.sbml}	23	66	Events are currently not supported!
+644	{strasen2018_fig4ctoh}_{model6_strasen3.sbml}	23	66	Events are currently not supported!
+645	{strasen2018_fig4ctoh}_{model7_strasen4.sbml}	23	66	Events are currently not supported!
+646	{strasen2018_fig4ctoh}_{model8_strasen5.sbml}	23	65	OK
+647	{strasen2018_fig4ctoh}_{model9_strasen5.sbml}	23	65	OK
+648	{strasen2018_fig5a}_{model0_strasen6.sbml}	23	66	OK
+649	{strasen2018_fig5a}_{model1_strasen7.sbml}	23	66	OK
+650	{strasen2018_fig5a}_{model2_strasen8.sbml}	23	66	OK
+651	{strasen2018_fig5a}_{model3_strasen9.sbml}	23	66	OK
+652	{strasen2018_fig5a}_{model4_strasen10.sbml}	23	66	OK
+653	{strasen2018_fig5a}_{model5_strasen11.sbml}	23	66	OK
+654	{tang2010_figs2-user}_{model0_tang1.sbml}	27	72	Events are currently not supported!
+655	{teusink1998_fig3candd-user}_{model0_teusink2.sbml}	4	4	OK
+656	{tiago2010_fig2_fe_adequate-user}_{model0_tiago2.sbml}	17	29	OK
+657	{tiago2010_fig2_fe_deficient}_{model0_tiago1.sbml}	17	29	OK
+658	{tiago2010_fig2_fe_deficient}_{model1_tiago1.sbml}	17	29	OK
+659	{tiago2010_fig2_fe_loaded-user}_{model0_tiago3.sbml}	17	29	OK
+660	{tiago2010_fig3_fe_adequate-user}_{model0_tiago2.sbml}	17	29	OK
+661	{tiago2010_fig3_fe_deficient}_{model0_tiago1.sbml}	17	29	OK
+662	{tiago2010_fig3_fe_loaded-user}_{model0_tiago3.sbml}	17	29	OK
+663	{tripathi2007_fig7_10to7_11-user}_{model0_tripathi1.sbml}	5	10	OK
+664	{tripathi2007_fig7_10to7_11-user}_{model1_tripathi1.sbml}	5	10	OK
+665	{tripathi2007_fig7_4-user}_{model0_tripathi1.sbml}	5	10	OK
+666	{tripathi2007_fig7_5to7_7-user}_{model0_tripathi1.sbml}	5	10	OK
+667	{tripathi2007_fig7_5to7_7-user}_{model1_tripathi1.sbml}	5	10	OK
+668	{tripathi2007_fig7_5to7_7-user}_{model2_tripathi1.sbml}	5	10	OK
+669	{tripathi2007_fig7_8to7_9-user}_{model0_tripathi1.sbml}	5	10	OK
+670	{tripathi2007_fig7_8to7_9-user}_{model1_tripathi1.sbml}	5	10	OK
+671	{tripathi2007_fig7_8to7_9-user}_{model2_tripathi1.sbml}	5	10	OK
+672	{valero2006_fig1aandb}_{model0_valero.sbml}	6	4	OK
+673	{valero2006_fig1aandb}_{model1_valero.sbml}	6	4	OK
+674	{vanEunen2013}_{vanEunen2013.xml}	54	59	Species assignment rules are currently not supported!
+675	{vanheerden2014_fig1b}_{model0_vanHeerden1.sbml}	24	18	Species assignment rules are currently not supported!
+676	{vanheerden2014_fig1b}_{model1_vanHeerden1.sbml}	24	18	Species assignment rules are currently not supported!
+677	{vanheerden2014_fig4-user}_{model1_.sbml}	7	5	OK
+678	{vanheerden2014_fig4-user}_{model2_.sbml}	7	5	OK
+679	{vernoux2011_fig3-user}_{model0_vernoux1.sbml}	6	12	Species assignment rules are currently not supported!
+680	{vernoux2011_fig3-user}_{model10_vernoux1.sbml}	6	12	Species assignment rules are currently not supported!
+681	{vernoux2011_fig3-user}_{model11_vernoux1.sbml}	6	12	Species assignment rules are currently not supported!
+682	{vernoux2011_fig3-user}_{model12_vernoux1.sbml}	6	12	Species assignment rules are currently not supported!
+683	{vernoux2011_fig3-user}_{model13_vernoux1.sbml}	6	12	Species assignment rules are currently not supported!
+684	{vernoux2011_fig3-user}_{model14_vernoux1.sbml}	6	12	Species assignment rules are currently not supported!
+685	{vernoux2011_fig3-user}_{model15_vernoux1.sbml}	6	12	Species assignment rules are currently not supported!
+686	{vernoux2011_fig3-user}_{model16_vernoux1.sbml}	6	12	Species assignment rules are currently not supported!
+687	{vernoux2011_fig3-user}_{model17_vernoux1.sbml}	6	12	Species assignment rules are currently not supported!
+688	{vernoux2011_fig3-user}_{model18_vernoux1.sbml}	6	12	Species assignment rules are currently not supported!
+689	{vernoux2011_fig3-user}_{model19_vernoux1.sbml}	6	12	Species assignment rules are currently not supported!
+690	{vernoux2011_fig3-user}_{model1_vernoux1.sbml}	6	12	Species assignment rules are currently not supported!
+691	{vernoux2011_fig3-user}_{model20_vernoux1.sbml}	6	12	Species assignment rules are currently not supported!
+692	{vernoux2011_fig3-user}_{model21_vernoux1.sbml}	6	12	Species assignment rules are currently not supported!
+693	{vernoux2011_fig3-user}_{model22_vernoux1.sbml}	6	12	Species assignment rules are currently not supported!
+694	{vernoux2011_fig3-user}_{model23_vernoux1.sbml}	6	12	Species assignment rules are currently not supported!
+695	{vernoux2011_fig3-user}_{model2_vernoux1.sbml}	6	12	Species assignment rules are currently not supported!
+696	{vernoux2011_fig3-user}_{model3_vernoux1.sbml}	6	12	Species assignment rules are currently not supported!
+697	{vernoux2011_fig3-user}_{model4_vernoux1.sbml}	6	12	Species assignment rules are currently not supported!
+698	{vernoux2011_fig3-user}_{model5_vernoux1.sbml}	6	12	Species assignment rules are currently not supported!
+699	{vernoux2011_fig3-user}_{model6_vernoux1.sbml}	6	12	Species assignment rules are currently not supported!
+700	{vernoux2011_fig3-user}_{model7_vernoux1.sbml}	6	12	Species assignment rules are currently not supported!
+701	{vernoux2011_fig3-user}_{model8_vernoux1.sbml}	6	12	Species assignment rules are currently not supported!
+702	{vernoux2011_fig3-user}_{model9_vernoux1.sbml}	6	12	Species assignment rules are currently not supported!
+703	{wahl2000_fig6-user}_{model0_wahl1.sbml}	8	24	Events are currently not supported!
+704	{wang2012_fig1and2-user}_{model0_wang1.sbml}	3	9	OK
+705	{wang2012_fig1and2-user}_{model1_wang1.sbml}	3	9	OK
+706	{wang2015_fig9-user}_{model0_wang2.sbml}	5	12	"Kinetic law ""lambda"" contains an unsupported expression!"
+707	{wang2015_fig9-user}_{model1_wang2.sbml}	5	12	"Kinetic law ""lambda"" contains an unsupported expression!"
+708	{wang2015_fig9-user}_{model2_wang2.sbml}	5	12	"Kinetic law ""lambda"" contains an unsupported expression!"
+709	{wang2015_fig9-user}_{model3_wang2.sbml}	5	12	"Kinetic law ""lambda"" contains an unsupported expression!"
+710	{wang2015_fig9-user}_{model4_wang2.sbml}	5	12	"Kinetic law ""lambda"" contains an unsupported expression!"
+711	{wang2015_fig9-user}_{model5_wang2.sbml}	5	12	"Kinetic law ""lambda"" contains an unsupported expression!"
+712	{wegner2012_fig2-user}_{model0_wegner1.sbml}	53	91	OK
+713	{wodarz2000_fig2-user}_{model0_wodarz2.sbml}	4	9	"Kinetic law ""lambda"" contains an unsupported expression!"
+714	{wodarz2007_fig1-user}_{model0_wodarz3.sbml}	3	9	Command '['/home/paulstapor/anaconda3/envs/PENV/bin/python', '/home/paulstapor/sbml2amici/amici_models/wodarz2007_fig1-user/model0_wodarz3/setup.py', '--quiet', 'build_ext', '--build-lib=/home/paulstapor/sbml2amici/amici_models/wodarz2007_fig1-user/model0_wodarz3']' returned non-zero exit status 1.
+715	{wodarz2007_fig1-user}_{model1_wodarz3.sbml}	3	9	Command '['/home/paulstapor/anaconda3/envs/PENV/bin/python', '/home/paulstapor/sbml2amici/amici_models/wodarz2007_fig1-user/model1_wodarz3/setup.py', '--quiet', 'build_ext', '--build-lib=/home/paulstapor/sbml2amici/amici_models/wodarz2007_fig1-user/model1_wodarz3']' returned non-zero exit status 1.
+716	{xie2007_fig3-user}_{model0_xie1.sbml}	25	41	OK
+717	{zhao2013_fig3a-user}_{model0_zhao1.sbml}	5	10	OK
+718	{zi2007_fig2d-user}_{model0_zi1.sbml}	16	26	OK
